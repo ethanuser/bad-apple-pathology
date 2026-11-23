@@ -9,13 +9,17 @@ import torch
 import torch.nn.functional as F
 
 from .geometry import ASPECT, BASE_UM, Pose, field, inside, values
-from .metrics import down, fit_levels, regional_features, score_image, thin_parts
+from .metrics import down, fit_levels, ncc, regional_features, score_image, thin_parts
 
 COARSE_W, REFINE_W, METRIC_W = 32, 48, 96
 KEEP, CHUNK = 48, 1024
 # Width bands (µm). Each band samples a pyramid level matched to its thumbnail pitch.
 BANDS = ((700., 1500.), (1500., 3200.), (3200., 6800.), (6800., 14000.))
 SMOOTH_START, SMOOTH_RANGE = .012, (.002, .045)
+# Local refinement: (perturbation scale, neighbours per seed, seeds kept) per round. The
+# MRI/CT edition found six progressively finer rounds the one cheap gain (+0.02).
+ROUNDS = ((1.15, 128, 32), (.60, 128, 24), (.30, 96, 16), (.15, 64, 10), (.07, 48, 8), (.035, 32, 7))
+ROUNDS_FAST = ((1.15, 16, 10), (.60, 24, 7), (.28, 20, 7))
 # Selection-only cost for crops that are mostly empty glass.
 GLASS_WEIGHT = .08
 
@@ -233,7 +237,7 @@ def refine(slides, poses, target, rng):
     white, black = thin_parts(low >= 128, 3)
     g = gradient_np(low[None])
     q = regional_features(low[None].astype(np.float32)/255, query=True)
-    for scale, n, k in [(1.15, 16, 10), (.60, 24, 7), (.28, 20, 7)]:
+    for scale, n, k in ROUNDS:
         cands = poses + [c for p in poses for c in neighbors(p, slides[p.slide], rng, n, scale)]
         small = np.stack([field(slides[c.slide], c, REFINE_W, REFINE_W*3//4) for c in cands])
         small = np.clip(np.rint(small), 0, 255).astype(np.uint8)
@@ -265,9 +269,13 @@ def evaluate(slides, p, target):
     best = None
     for offset in (-8, -4, 0, 4, 8):
         lv = float(np.clip(level[0] + offset, .5, 254.5))
-        metrics = score_image(silhouette(s, p, lv, METRIC_W, METRIC_W*3//4), target)
+        image = silhouette(s, p, lv, METRIC_W, METRIC_W*3//4)
+        metrics = score_image(image, target)
         if best is None or metrics['score'] > best['metrics']['score']:
-            best = dict(pose=p.record(), level=lv, metrics=metrics)
+            best, best_image = dict(pose=p.record(), level=lv, metrics=metrics), image
+    # Reported only, for comparison with ikuto32's Earth/Moon edition: NCC at 32 x 24.
+    # (Their Earth metric, mean foreground/background IoU at 128, is 'miou' here.)
+    best['metrics']['ncc_32x24'] = ncc(down(best_image, 32), down(target, 32))
     best['objective'] = best['metrics']['score'] - prior(s, p)
     return best
 

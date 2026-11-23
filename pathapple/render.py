@@ -315,7 +315,7 @@ def anatomy_card(tissue, size, theme_key, zoom, yaw=0.):
     return img, site, sex
 
 
-CARD_VERSION = 1
+CARD_VERSION = 3   # 2: groin removed from the skin shell; 3: rim-only shell
 
 
 def site_marker(P, site, origin, colour, halo):

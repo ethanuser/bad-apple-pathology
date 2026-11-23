@@ -47,12 +47,9 @@ A_ANAT = theme_key(map_bg=(250, 250, 250), map_organ=(196, 178, 186), map_line=(
                    accent_rgb=(217, 48, 44), block_rgb=(40, 40, 40))
 
 
-def workstation(F):
-    canvas = Image.new('RGB', SIZE, A['chrome'])
-    P = Painter(canvas)
-    p, s, slides = F['pose'], F['slide'], F['slides']
-    W, H = SIZE
-    # Title bar, menu bar, toolbar.
+def a_chrome(P, W, F, compact=False):
+    """Title bar, menu bar and icon toolbar, as QuPath lays them out."""
+    s = F['slide']
     P.box((0, 0, W, 28), fill='#ffffff')
     P.d.line((0, 27, W, 27), fill=A['line'])
     icon(P, 'zoom', 17, 14, '#2b2b2b', 6)
@@ -95,29 +92,22 @@ def workstation(F):
     gap()
     button('annotations', red=True, on=True)
     button('points', red=True, on=True)
-    button('layers')
-    P.d.line((x+8, ty, x+128, ty), fill='#a6a6a6', width=2)
-    P.d.ellipse((x+110, ty-6, x+122, ty+6), fill='#f7f7f7', outline='#8a8a8a')
-    x += 144
-    button('grid')
-    button(label='x,y')
-    button('ruler')
-    button('table')
+    if not compact:
+        button('layers')
+        P.d.line((x+8, ty, x+128, ty), fill='#a6a6a6', width=2)
+        P.d.ellipse((x+110, ty-6, x+122, ty+6), fill='#f7f7f7', outline='#8a8a8a')
+        x += 144
+        button('grid')
+        button(label='x,y')
+        button('ruler')
+        button('table')
     gap()
     button('gear')
     P.d.line((0, 88, W, 88), fill=A['line'])
 
-    # Left pane: tabs and the Image table.
-    lx, lw = 6, 388
-    x = lx
-    for t in ('Project', 'Image', 'Annotations', 'Hierarchy', 'Workflow'):
-        tw = P.width(t, 12) + 14
-        on = t == 'Image'
-        P.box((x, 94, tw, 22), fill='#ffffff' if on else A['tab'], outline=A['line'])
-        if on:
-            P.d.line((x+1, 115, x+tw-2, 115), fill='#ffffff')
-        P.text((x+tw/2, 105), t, 12, A['ink'], 'mm')
-        x += tw - 1
+
+def a_rows(F, full=True):
+    p, s = F['pose'], F['slide']
     fine = s.spec['levels']['fine']
     rows = [('Name', f"{s.spec['specimen']}.dcm"), ('Tissue', s.tissue), ('Image type', 'Brightfield (H&E)'),
             ('Pixel size', f"{fine['um_per_px']:.4f} µm"),
@@ -127,50 +117,77 @@ def workstation(F):
             ('Channel', CHANNELS[p.channel].capitalize()), ('Threshold', f"{F['match']['level']:.1f}"),
             ('Edge smoothing', f'{p.smooth*p.width_um:.0f} µm'),
             ('Stain 1', 'Hematoxylin: ' + stain_text(s.stains[0])), ('Stain 2', 'Eosin: ' + stain_text(s.stains[1]))]
-    top = 116
-    P.box((lx, top, lw, 22*(len(rows)+1)+1), fill='#ffffff', outline=A['line'])
-    P.box((lx, top, lw, 22), fill='#f2f2f2', outline=A['line'])
-    split = lx + 140
-    P.text(((lx+split)/2, top+11), 'Name', 12, A['ink'], 'mm', bold=True)
-    P.text(((split+lx+lw)/2, top+11), 'Value', 12, A['ink'], 'mm', bold=True)
-    y = top + 22
+    if full:
+        return rows
+    keep = ('Name', 'Field', 'Channel', 'Stain 1', 'Stain 2')
+    return [r for r in rows if r[0] in keep]
+
+
+def a_table(P, x, y, w, F, rows, tabs=True):
+    """The Image tab: name and value rows. Returns the bottom edge."""
+    if tabs:
+        tx = x
+        for t in ('Project', 'Image', 'Annotations', 'Hierarchy', 'Workflow'):
+            tw = P.width(t, 12) + 14
+            on = t == 'Image'
+            P.box((tx, y, tw, 22), fill='#ffffff' if on else A['tab'], outline=A['line'])
+            if on:
+                P.d.line((tx+1, y+21, tx+tw-2, y+21), fill='#ffffff')
+            P.text((tx+tw/2, y+11), t, 12, A['ink'], 'mm')
+            tx += tw - 1
+        y += 22
+    P.box((x, y, w, 22*(len(rows)+1)+1), fill='#ffffff', outline=A['line'])
+    P.box((x, y, w, 22), fill='#f2f2f2', outline=A['line'])
+    split = x + 140
+    P.text(((x+split)/2, y+11), 'Name', 12, A['ink'], 'mm', bold=True)
+    P.text(((split+x+w)/2, y+11), 'Value', 12, A['ink'], 'mm', bold=True)
+    top, y = y, y + 22
     for name, value in rows:
-        P.d.line((lx, y+21, lx+lw-1, y+21), fill='#e6e6e6')
-        P.text((lx+6, y+11), name, 12, A['ink'], 'lm')
+        P.d.line((x, y+21, x+w-1, y+21), fill='#e6e6e6')
+        P.text((x+6, y+11), name, 12, A['ink'], 'lm')
         colour = {'Stain 1': '#3f4fb0', 'Stain 2': '#c8327a'}.get(name, A['ink'])
         P.text((split+6, y+11), value, 12, colour, 'lm')
         y += 22
     P.d.line((split, top, split, y), fill='#e6e6e6')
+    return y + 1
 
-    # Lower pane: associated images, as QuPath lists macro, thumbnail and label.
-    ay = y + 7
-    P.box((lx, ay, lw, H-ay-8), fill='#ffffff', outline=A['line'])
-    iw = lw - 16
-    P.text((lx+8, ay+12), 'Reference', 12, A['ink'], 'lm', bold=True)
-    P.text((lx+lw-8, ay+12), f"Frame {F['frame_no']}  {mmss(F['time_s'])}", 11, A['mute'], 'rm')
-    ref_h = round(iw*3/4)
-    ref = Image.fromarray(F['original']).convert('RGB').resize((iw, ref_h), Image.Resampling.LANCZOS)
-    P.paste(ref, (lx+8, ay+24))
-    P.box((lx+8, ay+24, iw, ref_h), outline=A['line'])
-    at = ay + 24 + ref_h + 8
-    P.text((lx+8, at+12), 'Atlas', 12, A['ink'], 'lm', bold=True)
-    P.text((lx+lw-8, at+12), s.tissue, 11, A['mute'], 'rm')
-    top2, bottom = at + 24, H - 8 - 22
-    bw0 = 118
-    img, site, sex = anatomy_card(s.tissue, (bw0, bottom-top2), A_ANAT, 'body')
-    P.paste(img, (lx+8, top2))
-    site_marker(P, site, (lx+8, top2), A['red'], '#ffffff')
-    ox = lx + 8 + bw0 + 6
-    img, site, _ = anatomy_card(s.tissue, (lx+lw-8-ox, bottom-top2), A_ANAT, 'organ', 25.)
-    P.paste(img, (ox, top2))
-    site_marker(P, site, (ox, top2), A['red'], '#ffffff')
-    P.box((lx+8, top2, iw, bottom-top2), outline=A['line'])
-    P.d.line((ox-3, top2, ox-3, bottom), fill=A['line'])
-    P.text((lx+8, H-19), site_caption(F), 11, A['mute'], 'lm')
-    P.text((lx+lw-8, H-19), f'HRA {sex} reference', 11, A['mute'], 'rm')
 
-    # Viewer.
-    vx, vy = lx + lw + 6, 94
+def a_reference(P, x, y, w, F):
+    """Reference frame panel at width w. Returns the bottom edge."""
+    iw = w - 16
+    h = round(iw*3/4)
+    P.box((x, y, w, h+32), fill='#ffffff', outline=A['line'])
+    P.text((x+8, y+12), 'Reference', 12, A['ink'], 'lm', bold=True)
+    P.text((x+w-8, y+12), f"Frame {F['frame_no']}  {mmss(F['time_s'])}", 11, A['mute'], 'rm')
+    ref = Image.fromarray(F['original']).convert('RGB').resize((iw, h), Image.Resampling.LANCZOS)
+    P.paste(ref, (x+8, y+24))
+    P.box((x+8, y+24, iw, h), outline=A['line'])
+    return y + h + 32
+
+
+def a_atlas(P, box, F, body_w=118):
+    """HRA body with the site, beside the organ with GTEx's block."""
+    x, y, w, h = box
+    s = F['slide']
+    P.box((x, y, w, h), fill='#ffffff', outline=A['line'])
+    P.text((x+8, y+12), 'Atlas', 12, A['ink'], 'lm', bold=True)
+    P.text((x+w-8, y+12), s.tissue, 11, A['mute'], 'rm')
+    top, bottom = y + 24, y + h - 24
+    img, site, sex = anatomy_card(s.tissue, (body_w, bottom-top), A_ANAT, 'body')
+    P.paste(img, (x+8, top))
+    site_marker(P, site, (x+8, top), A['red'], '#ffffff')
+    ox = x + 8 + body_w + 6
+    img, site, _ = anatomy_card(s.tissue, (x+w-8-ox, bottom-top), A_ANAT, 'organ', 25.)
+    P.paste(img, (ox, top))
+    site_marker(P, site, (ox, top), A['red'], '#ffffff')
+    P.box((x+8, top, w-16, bottom-top), outline=A['line'])
+    P.d.line((ox-3, top, ox-3, bottom), fill=A['line'])
+    P.text((x+8, y+h-12), site_caption(F), 11, A['mute'], 'lm')
+    P.text((x+w-8, y+h-12), f'HRA {sex} reference', 11, A['mute'], 'rm')
+
+
+def a_viewer(P, vx, vy, F):
+    p, slides = F['pose'], F['slides']
     vw, vh = PANEL_SIZE
     P.paste(viewport(F), (vx, vy))
     P.box((vx-1, vy-1, vw+2, vh+2), outline=A['red'], width=1)
@@ -190,9 +207,11 @@ def workstation(F):
     P.text((vx+vw-79, vy+vh-35), f'{p.x_um:,.2f}, {p.y_um:,.2f} µm', 11, '#ffffff', 'mm')
     P.text((vx+vw-79, vy+vh-19), f'{centre[0]}, {centre[1]}, {centre[2]}', 11, '#ffffff', 'mm')
 
-    # Below the viewer: the project's slides, with similarity as a small trace.
-    by = vy + vh + 8
-    bh = H - 8 - by
+
+def a_project(P, box, F, rows_n=None):
+    """The project's slides, one cell per tissue, with similarity as a small trace."""
+    vx, by, vw, bh = box
+    p, slides = F['pose'], F['slides']
     P.box((vx, by, vw, bh), fill='#ffffff', outline=A['line'])
     groups = {}
     for i, sl in enumerate(slides):
@@ -209,10 +228,10 @@ def workstation(F):
     # use, or the tissue's first slide, with a count.
     cells = list(groups.items())
     n = len(cells)
-    rows_n = 2 if n <= 24 else 4
+    rows_n = rows_n or (2 if n <= 24 else 4)
     cols = -(-n//rows_n)
     cw, ch = (vw-12)/cols, (bh-28)/rows_n
-    side = rows_n > 2            # compact cells: thumbnail left, name right
+    side = cw > 1.6*ch            # wide cells: thumbnail left, name right
     for k, (tissue, members) in enumerate(cells):
         cx = vx + 6 + (k % cols)*cw
         cy = by + 24 + (k//cols)*ch
@@ -237,16 +256,56 @@ def workstation(F):
             for j, ln in enumerate(lines):
                 P.text((cx + tw + 7, ty + j*11), ln, 9, A['blue'] if on else A['mute'], 'lm', bold=on)
         else:
-            img, _ = overview(i, (int(cw-10), int(ch-18)))
-            P.paste(img, (cx + (cw-img.width)/2, cy + 2 + (ch-18-img.height)/2))
-            size = 10
+            img, _ = overview(i, (int(cw-10), int(ch-22)))
+            P.paste(img, (cx + (cw-img.width)/2, cy + 2 + (ch-22-img.height)/2))
+            size = 11
             while size > 7 and P.width(tissue, size) > cw - 6:
                 size -= 1
-            P.text((cx+cw/2, cy+ch-9), tissue, size, A['blue'] if on else A['mute'], 'mm', bold=on)
+            P.text((cx+cw/2, cy+ch-10), tissue, size, A['blue'] if on else A['mute'], 'mm', bold=on)
         if on:
             P.box((cx+1, cy, cw-2, ch-1), outline=A['blue'], width=2)
         if len(members) > 1:
             P.text((cx+cw-5, cy+2), f'{len(members)}', 9, A['mute'], 'ra')
+
+
+def workstation(F):
+    """1440 x 1080: Image table, reference and atlas on the left; viewer; slides below."""
+    canvas = Image.new('RGB', SIZE, A['chrome'])
+    P = Painter(canvas)
+    W, H = SIZE
+    a_chrome(P, W, F)
+    lx, lw = 6, 388
+    y = a_table(P, lx, 94, lw, F, a_rows(F))
+    y = a_reference(P, lx, y+6, lw, F)
+    a_atlas(P, (lx, y+6, lw, H-8-(y+6)), F)
+    vx, vy = lx + lw + 6, 94
+    a_viewer(P, vx, vy, F)
+    by = vy + PANEL_SIZE[1] + 8
+    a_project(P, (vx, by, PANEL_SIZE[0], H-8-by), F)
+    return canvas
+
+
+VERTICAL = (1080, 1920)
+
+
+def workstation_vertical(F):
+    """1080 x 1920 for Shorts, TikTok and Reels: the viewer centred, clear of the apps'
+    top tabs and bottom captions; reference, Image table and atlas above; slides below."""
+    W, H = VERTICAL
+    canvas = Image.new('RGB', VERTICAL, A['chrome'])
+    P = Painter(canvas)
+    a_chrome(P, W, F, compact=True)
+    vw, vh = PANEL_SIZE
+    vx, vy = (W-vw)//2, (H-vh)//2
+    top, gap = 94, 6
+    lw = 420
+    y = a_reference(P, vx, top, lw, F)
+    a_table(P, vx, y+gap, lw, F, a_rows(F, full=False), tabs=False)
+    ax = vx + lw + gap
+    a_atlas(P, (ax, top, vx+vw-ax, vy-gap-top), F, body_w=170)
+    a_viewer(P, vx, vy, F)
+    by = vy + vh + 8
+    a_project(P, (vx, by, vw, H-12-by), F, rows_n=5)
     return canvas
 
 
@@ -542,4 +601,5 @@ def scanner(F):
     return canvas
 
 
-LAYOUTS = dict(workstation=workstation, clinical=clinical, scanner=scanner)
+LAYOUTS = dict(workstation=workstation, vertical=workstation_vertical, clinical=clinical, scanner=scanner)
+SIZES = dict(workstation=SIZE, vertical=VERTICAL, clinical=SIZE, scanner=SIZE)

@@ -2,7 +2,7 @@
 
 ## Inputs
 
-`sources.json` pins every slide as two pyramid levels of a GTEx DICOM whole-slide image in the NCI Imaging Data Commons public bucket: the ~2 µm level (scanned at 20x, 0.494 µm per pixel, then reduced 4x by the scanner) for matching and display, and the ~8 µm level as the overview. Each file is fetched once over HTTPS and checked against its SHA-256. `scripts/select_slides.py` built the list: for each of GTEx's 40 coded anatomic sites it draws six candidate slides with a fixed seed and keeps the three with the most tissue on the glass (117 slides: a few sites had fewer usable candidates). Only the public specimen ID, the SNOMED-coded site and image geometry are recorded; donor age, sex and the free-text pathology notes in the DICOM headers are never read into the run.
+`sources.json` pins every slide as two pyramid levels of a GTEx DICOM whole-slide image in the NCI Imaging Data Commons public bucket: the ~2 µm level (scanned at 20x, 0.494 µm per pixel, then reduced 4x by the scanner) for matching and display, and the ~8 µm level as the overview. Each file is fetched once over HTTPS and checked against its SHA-256. `scripts/select_slides.py` built the list: for each of GTEx's 40 coded anatomic sites it draws six candidate slides with a fixed seed and keeps the three with the most tissue on the glass. Testis and vagina are left out (see Content), leaving 111 slides from 38 sites; a few sites had fewer usable candidates. Only the public specimen ID, the SNOMED-coded site and image geometry are recorded; donor age, sex and the free-text pathology notes in the DICOM headers are never read into the run.
 
 `data/hra/` holds the Human Reference Atlas scene (organ placements and GTEx tissue blocks) as returned by the CCF API, kept in the repository because that API is not versioned, and `data/hra/meshes.json` pins the 3D organ meshes by hash. The Material Symbols font is pinned in `sources.json`.
 
@@ -14,15 +14,15 @@ Each slide's 2 µm level is halved to about 4 µm, its glass colour is estimated
 - **hematoxylin**: nuclei-dense regions such as lymphoid follicles, glands and the granular layer;
 - **eosin**: cytoplasm, muscle and collagen.
 
-Each channel is scaled to its 99.5th percentile within tissue. Tissue must be both dense and coloured, so grey dust, debris and pen marks on bare glass are not tissue. A seven-level pyramid (4 to 256 µm) of all three channels is cached beside the slide as memory-mapped `.npy` files, so a bank of 117 slides needs little RAM.
+Each channel is scaled to its 99.5th percentile within tissue. Tissue must be both dense and coloured, so grey dust, debris and pen marks on bare glass are not tissue. A seven-level pyramid (4 to 256 µm) of all three channels is cached beside the slide as memory-mapped `.npy` files, so a bank of 111 slides needs little RAM.
 
 ## Matching
 
 1. **Coarse retrieval (GPU).** For every slide, four magnification bands (0.7–1.5, 1.5–3.2, 3.2–6.8 and 6.8–14 mm wide) and three channels, the search proposes fields centred on or near tissue with random width, angle and mirror, rejecting any whose footprint leaves the scanned area. Each band samples the pyramid level at about half its thumbnail pitch, so magnification never aliases. Fields are scored as 32 × 24 thumbnails against every target frame, mirrored and inverted: grayscale NCC (the baseline) and a contour score combining soft-thresholded correlation, gradient agreement and regional NCC in a 4 × 3 grid at a random level. The best 48 poses per target are kept for each score. Retrieval is saved, so an interrupted refinement resumes without it.
-2. **Refinement (CPU).** Three rounds of joint perturbation of position, zoom, angle and *edge smoothing*, scored at 48 × 36 by balanced IoU, gradient agreement, regional NCC and thin detail. Edge smoothing is the Gaussian sigma of the silhouette field as a fraction of the field width (0.2–4.5%), so the same shape holds at any magnification and a field can range from cell-level outlines to smooth blobs. Each frame is also seeded with its predecessor's pose and that pose moved by the change in silhouette centroid and area.
+2. **Refinement (CPU).** Six progressively finer rounds (128, 128, 96, 64, 48 and 32 neighbours per seed, keeping 32, 24, 16, 10, 8 and 7 seeds) of joint perturbation of position, zoom, angle and *edge smoothing*, scored at 48 × 36 by balanced IoU, gradient agreement, regional NCC and thin detail. Edge smoothing is the Gaussian sigma of the silhouette field as a fraction of the field width (0.2–4.5%), so the same shape holds at any magnification and a field can range from cell-level outlines to smooth blobs. On the excerpt, six rounds instead of the first version's three raised mean similarity from 0.738 to 0.760 for four times the refinement time, as the MRI/CT edition found. Each frame is also seeded with its predecessor's pose and that pose moved by the change in silhouette centroid and area.
 3. **Selection.** Thresholds are fitted from class histograms, and the four neighbouring levels are tried on the full score. A dynamic program chooses the sequence with the highest total score less a small cost (up to 0.038) for changing slide, channel, mirror or polarity, or for jumps in position, zoom, angle and smoothing. A selection-only cost of up to 0.08 applies to fields with less than 30% stained tissue, so empty glass with a speck of dust cannot stand in for a silhouette.
 
-**Similarity** is measured on the black and white silhouette at 96 × 72: 28% balanced IoU, 27% boundary F1 with a two-pixel tolerance, 20% thin detail, 12.5% positive grayscale NCC and 12.5% positive regional NCC. These are the same metrics as the MRI and CT project, so the numbers compare directly.
+**Similarity** is measured on the black and white silhouette at 96 × 72: 28% balanced IoU, 27% boundary F1 with a two-pixel tolerance, 20% thin detail, 12.5% positive grayscale NCC and 12.5% positive regional NCC. These are the same metrics as the MRI and CT project, so the numbers compare directly. For comparison with ikuto32's Earth and Moon edition, the report also gives their metrics: NCC at 32 × 24 (median and 10th percentile) and the mean of foreground and background IoU at threshold 128.
 
 ## Display
 
@@ -35,13 +35,29 @@ The viewport shows the real colour field from the 2 µm level (or its area-reduc
 
 ## Layouts
 
-`--layout workstation` (default) follows QuPath: menu and icon toolbar with the magnification readout, an Image table with the slide's pixel size, dimensions, field, rotation, channel, threshold, edge smoothing and its own stain vectors, the overview inset with the field's box, scale bar and a cursor readout of the field centre in micrometres and its colour. The left pane carries the source frame and the anatomy; under the viewer, the project's slides with the current one outlined and the similarity as a small trace. `clinical` follows Aperio WebViewer DX (slide tray, label, thumbnail heat map of where the video has looked, colour-coded zoom, rotation dial, magnifier) and `scanner` follows Hamamatsu NDP.view2 (full-bleed field with floating tool windows).
+`--layout workstation` (default, 1440 × 1080) follows QuPath: menu and icon toolbar with the magnification readout, an Image table with the slide's pixel size, dimensions, field, rotation, channel, threshold, edge smoothing and its own stain vectors, the overview inset with the field's box, scale bar and a cursor readout of the field centre in micrometres and its colour. The left pane carries the source frame and the anatomy; under the viewer, the project's slides with the current one outlined and the similarity as a small trace. `vertical` is the same workstation at 1080 × 1920 for Shorts, TikTok and Reels: the viewer centred, clear of the apps' top tabs and bottom captions, with the reference, a shorter Image table and the atlas above and the tissues below. `clinical` follows Aperio WebViewer DX (slide tray, label, thumbnail heat map of where the video has looked, colour-coded zoom, rotation dial, magnifier) and `scanner` follows Hamamatsu NDP.view2 (full-bleed field with floating tool windows).
 
 ## Anatomy
 
 The atlas renders the HRA 3D reference organs with OpenGL (moderngl): a translucent skin shell lit at its silhouette, context organs, the sampled organ or named sub-structure (for example the cerebellum, transverse colon or left ventricle) in the accent colour, and the sampling site as a 3D block. Seventeen GTEx tissues have blocks that GTEx registered into these organs, which are drawn at their registered size, position and orientation. Others use the named HRA structure. Tissues from organs the HRA does not model (stomach, oesophagus, adrenal gland, thyroid gland, testis, pituitary, and the lower-leg muscle, nerve, artery and fat sampled beside the lower-leg skin) are placed from neighbouring structures and drawn with a dashed ring.
 
 GTEx's two colon registrations carry swapped names: the block registered as *Colon_Sigmoid* lies in, and is annotated as, the transverse colon (UBERON:0001157), and vice versa. Colon blocks are therefore chosen by their anatomical annotation. The body's sex follows the tissue (male for prostate, testis and, where only a male block exists, sigmoid colon; otherwise female), not the donor. Rendered views are cached on disk so the forked frame renderers never need an OpenGL context.
+
+## Content
+
+No identifiable people and no genital imagery, matching the MRI/CT edition's rules. Histology has no faces. Testis and vagina are excluded from the slide bank, and the 3D body's skin shell has the groin removed (faces within 70 mm of the midline, from 120 mm below to 80 mm above the lowest point of the hip bones), drawn as a rim-lit outline so the cut does not show. Internal reproductive organs (prostate, uterus, ovary, fallopian tube, cervix) and breast remain. All data allow public, monetised use with attribution: GTEx histology and HRA organs under CC BY 4.0, GTEx registrations under MIT and Material Symbols under Apache 2.0. `test_privacy` checks the exclusions and the crop.
+
+## GPU runs
+
+The full song at 30 fps (6,960 frames) runs on a CUDA machine you can type into, such as an ICRN notebook terminal on an H200:
+
+```sh
+git clone https://github.com/ethanuser/bad-apple-pathology && cd bad-apple-pathology
+scripts/setup-env.sh          # venv, requirements, verified inputs (5.5 GB from public buckets)
+scripts/gpu-run.sh 30         # background match; follow output/full-song/run.log
+```
+
+The first match prepares 12 GB of stain planes. Retrieval is saved to `output/full-song/retrieval.json.gz`, so rerunning after an interruption repeats only the CPU refinement, which forks one process per CPU on Linux (from `CPU_LIMIT` on a notebook server). Copy `output/full-song/matches.json` back and render locally, since the anatomy needs OpenGL.
 
 ## Commands
 
@@ -60,5 +76,5 @@ GTEx's two colon registrations carry swapped names: the block registered as *Col
 
 - `test_geometry`: the silhouette field and the displayed colour crop sample the same tissue (an early version assumed 4.0 µm planes where the slides give 3.95 µm, shifting the colour image by up to a quarter of a field), and the logged footprint is the mapped field corners.
 - `test_anatomy`: every GTEx tissue has a site inside the body, registered tissues use GTEx's blocks, and the colon blocks sit in the colon segment they are annotated as.
-- `test_privacy`: no donor fields or free text in the pinned sources or a saved run.
+- `test_privacy`: no donor fields or free text in the pinned sources or a saved run, no excluded tissues, and no skin faces left in the groin.
 - `test_rendered_provenance`: decodes the video and re-renders sampled viewports from `matches.json` and the pinned slides, within a lossy-codec tolerance.

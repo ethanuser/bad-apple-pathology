@@ -5,6 +5,20 @@ from collections import Counter
 from .inputs import ROOT
 
 
+def earth_moon(frames):
+    """The metrics ikuto32's Earth/Moon edition reports, for a like-for-like comparison:
+    NCC at 32 x 24 (their Moon) and mean foreground/background IoU at threshold 128 (their Earth)."""
+    import numpy as np
+    sel = [r['silhouette']['metrics'] for r in frames]
+    if 'ncc_32x24' not in sel[0]:
+        return ''
+    n = np.array([m['ncc_32x24'] for m in sel])
+    iou = np.array([m['miou'] for m in sel])
+    return (f'Earth/Moon comparison: NCC at 32 × 24 has median {np.median(n):.3f} and 10th percentile '
+            f'{np.percentile(n, 10):.3f} (Moon: 0.896 and 0.790; MRI/CT edition: 0.853 and 0.681). Mean foreground and '
+            f'background IoU at threshold 128 is {iou.mean():.3f} (Earth: about 0.80 to 0.83; MRI/CT edition: 0.793).')
+
+
 def report(output, record):
     cfg, bench, frames = record['config'], record['benchmark'], record['frames']
     rows = []
@@ -26,6 +40,7 @@ def report(output, record):
         '|---|---:|---:|---:|---:|---:|---:|---:|', *rows, '',
         'Similarity is 28% balanced IoU, 27% boundary F1 (2 pixels at 96 × 72), 20% thin detail, 12.5% positive '
         'global NCC and 12.5% positive regional NCC, measured on the silhouette that sets the displayed field\'s tone.', '',
+        earth_moon(frames), '',
         'Tissues in the selected sequence: ' + ', '.join(f'{t} {n}' for t, n in tissues.most_common()) + '.', '',
         'Stain channels: ' + ', '.join(f'{c} {n}' for c, n in channels.most_common()) + '.', '',
         'Every pose, threshold and slide is in [matches.json](matches.json). Credits are in [CREDITS.md](CREDITS.md).', '']

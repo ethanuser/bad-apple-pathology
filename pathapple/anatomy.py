@@ -80,6 +80,8 @@ TISSUES = {
     'Testis': dict(derive='testis', sex='male', approx=True),
 }
 
+GROIN_HALF_WIDTH = .07   # metres either side of the midline
+
 # Context organs drawn in every view, dim.
 CONTEXT = ('brain', 'lung', 'heart', 'liver', 'spleen', 'pancreas', 'Left kidney', 'Right kidney',
            'large intestine', 'small intestine', 'urinary bladder', 'uterus', 'prostate', 'trachea',
@@ -130,6 +132,24 @@ class Body:
                 self.blocks[tissue] = matrix(node['transformMatrix'])
                 for term in node.get('ccf_annotations', []):
                     self.block_terms.setdefault(term.split('/')[-1], tissue)
+        self._finish()
+
+    def _finish(self):
+        self._crop_groin()
+
+    def _crop_groin(self):
+        """Remove the skin shell around the external genitalia, in the spirit of the
+        MRI/CT edition's pelvic crop: skin faces near the midline from 120 mm below
+        to 80 mm above the lowest point of the hip bones."""
+        pelvis = self.points('pelvis')
+        if not len(pelvis):
+            return
+        lo = float(pelvis[:, 1].min())
+        mid = float(np.median(pelvis[:, 0]))
+        for m in self.organs.get('skin', []):
+            c = m.v[m.f].mean(axis=1)
+            cut = (np.abs(c[:, 0] - mid) < GROIN_HALF_WIDTH) & (c[:, 1] > lo - .12) & (c[:, 1] < lo + .08)
+            m.f = m.f[~cut]
 
     @staticmethod
     def _geometries(scene):
@@ -242,7 +262,7 @@ void main() {
     if (!gl_FrontFacing) n = -n;
     float rim = 1.0 - abs(n.z);
     if (mode == 1) {           // skin: a glass shell lit at its silhouette
-        float a = colour.a * (0.035 + 0.965 * pow(rim, 3.0));
+        float a = colour.a * pow(rim, 2.6);
         out_colour = vec4(colour.rgb, a);
         return;
     }

@@ -11,7 +11,7 @@ from pathlib import Path
 from PIL import Image
 
 from .geometry import Pose
-from .layouts import LAYOUTS, SIZE
+from .layouts import LAYOUTS, SIZES
 from .media import VIDEO
 from .render import frame_info, magnification
 
@@ -60,8 +60,10 @@ def workers():
     return max(1, min(6, n))     # each worker holds up to two decoded slides
 
 
-def encode(output, record, slides, originals, layout='workstation', style='adaptive', name='bad-apple-pathology.mp4'):
+def encode(output, record, slides, originals, layout='workstation', style='adaptive', name=None):
     conf = record['config']
+    SIZE = SIZES[layout]
+    name = name or ('bad-apple-pathology.mp4' if layout == 'workstation' else f'bad-apple-pathology-{layout}.mp4')
     frames = dict(frames_for(record, slides, originals, style))
     seen, samples = set(), []
     for t, args in frames.items():
@@ -94,7 +96,7 @@ def encode(output, record, slides, originals, layout='workstation', style='adapt
                     nonlocal done
                     for raw in chunk:
                         if done == 0:
-                            Image.frombytes('RGB', SIZE, raw).save(output/'preview.jpg', quality=94)
+                            Image.frombytes('RGB', SIZE, raw).save(output/f'preview-{layout}.jpg', quality=94)
                         proc.stdin.write(raw)
                         done += 1
                     if done % 240 < BLOCK or done == len(frames):

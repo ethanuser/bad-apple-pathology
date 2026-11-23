@@ -19,6 +19,9 @@ sys.path.insert(0, str(ROOT))
 from pathapple.slides import decode_level, tissue_mask  # noqa: E402
 
 BUCKET = 'https://idc-open-data.s3.amazonaws.com'
+# External genital organs are left out of the bank entirely, as the MRI/CT edition crops
+# the pelvis: no genital imagery, even microscopic.
+EXCLUDED = {'Testis', 'Vagina'}
 
 
 def level_rows(si, series):
@@ -41,7 +44,8 @@ def main():
     series = c.index[c.index.collection_id == 'gtex'][['SeriesInstanceUID', 'crdc_series_uuid', 'PatientID', 'license_short_name', 'source_DOI']]
     sm = c.sm_index.merge(series, on='SeriesInstanceUID')
     si = c.sm_instance_index
-    tissues = args.tissues or sorted(sm.primaryAnatomicStructure_CodeMeaning.unique())
+    tissues = [t for t in (args.tissues or sorted(sm.primaryAnatomicStructure_CodeMeaning.unique()))
+               if t not in EXCLUDED]
     rng = np.random.default_rng(args.seed)
     cache = ROOT/'assets'/'_select'
     cache.mkdir(parents=True, exist_ok=True)
