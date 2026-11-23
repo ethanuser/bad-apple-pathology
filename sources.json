@@ -1,0 +1,3532 @@
+{
+  "slides": [
+    {
+      "key": "gtex-zyw4-0225",
+      "specimen": "GTEX-ZYW4-0225",
+      "subject": "GTEX-ZYW4",
+      "tissue": "Adipose tissue",
+      "snomed": "SCT:55603005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2164480314.857487034.1720151431482.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1329,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/2cd87a3e-4df4-4335-9480-b81a6243f129/5c13ac37-e863-4622-abcf-fabfa6b00566.dcm",
+          "bytes": 31114352,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 10990,
+          "sha256": "88f30c9d6025863226a69481e5eec1c8df5d7f2fc4dc5a9350f1f2ed6612934d"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/2cd87a3e-4df4-4335-9480-b81a6243f129/fc7b30fd-1ebc-4464-82e9-7e32a9c06f04.dcm",
+          "bytes": 3360142,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 2747,
+          "sha256": "308c7d8263db78e40a34a1f42563c686a85466bc2e889b7e32b2c8f661c03a64"
+        }
+      }
+    },
+    {
+      "key": "gtex-1pbji-0425",
+      "specimen": "GTEX-1PBJI-0425",
+      "subject": "GTEX-1PBJI",
+      "tissue": "Adipose tissue",
+      "snomed": "SCT:55603005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2148965424.1898419685.1720135916592.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1144,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/17d00715-2d29-413c-b97d-a4e5aa3a6684/37fcf118-5079-4bb2-a826-7a67236f1ae8.dcm",
+          "bytes": 30432702,
+          "um_per_px": 1.9769063329269998,
+          "width": 13943,
+          "height": 10933,
+          "sha256": "00824051a33e7258f11d182b37645d4034b5f5581370144e25306688fd7aeda4"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/17d00715-2d29-413c-b97d-a4e5aa3a6684/6ecf3d22-73d2-4a66-b431-6fceb05f20b6.dcm",
+          "bytes": 3918504,
+          "um_per_px": 7.909327116212001,
+          "width": 3485,
+          "height": 2733,
+          "sha256": "aa9eee40b28c5a04febd695ee25e99d284cd86100daaa8fa656d65d9380abfec"
+        }
+      }
+    },
+    {
+      "key": "gtex-1lncm-1325",
+      "specimen": "GTEX-1LNCM-1325",
+      "subject": "GTEX-1LNCM",
+      "tissue": "Adipose tissue",
+      "snomed": "SCT:55603005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2163906042.1275918054.1720150857210.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.0825,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c971eb25-3a58-4871-adb2-97cbe6c8c6ef/88596b16-6350-46b4-a8dd-c43b8733d1a4.dcm",
+          "bytes": 26023446,
+          "um_per_px": 1.97690266602,
+          "width": 14441,
+          "height": 8863,
+          "sha256": "35be61f77062f372d11b881ac034c94e20747fe681ed54e6f55d9fff410a594e"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c971eb25-3a58-4871-adb2-97cbe6c8c6ef/2e057fb3-f4dd-47c4-be7d-c3a7c658e3e7.dcm",
+          "bytes": 3262576,
+          "um_per_px": 7.908158282548001,
+          "width": 3610,
+          "height": 2215,
+          "sha256": "c4429e3c21ff2f724970d4be341dbb3a5b24afc3c717752f62249f8765cb15d4"
+        }
+      }
+    },
+    {
+      "key": "gtex-t5jc-1425",
+      "specimen": "GTEX-T5JC-1425",
+      "subject": "GTEX-T5JC",
+      "tissue": "Adrenal gland",
+      "snomed": "SCT:23451007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2470971529.447965799.1720457922697.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3103,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0c48ae7c-e148-416e-bf98-c003cc8f10fb/6581bdaa-aea4-40ee-8912-d9193ce1ebc0.dcm",
+          "bytes": 55211662,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 9536,
+          "sha256": "3ec261f95e74d8cc138ea91812e769898b904968bbea12286938d588a3bdc742"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0c48ae7c-e148-416e-bf98-c003cc8f10fb/e71f2a7d-9ef8-4c4c-ab95-b3ce080c93cf.dcm",
+          "bytes": 4796930,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 2384,
+          "sha256": "a9cb7ab8b1c0779105574ec6562513d772f3a19b8dba7140619b0ec6aedf48e1"
+        }
+      }
+    },
+    {
+      "key": "gtex-y5lm-0125",
+      "specimen": "GTEX-Y5LM-0125",
+      "subject": "GTEX-Y5LM",
+      "tissue": "Adrenal gland",
+      "snomed": "SCT:23451007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2459640623.1292480487.1720446591791.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2331,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/035c0aa8-8d16-4018-aa90-28d45314627f/a1e19691-6936-4423-88eb-a9dbd9cd7d9c.dcm",
+          "bytes": 58298118,
+          "um_per_px": 1.976896041977,
+          "width": 15437,
+          "height": 9870,
+          "sha256": "e55a83b04e30679c93ece1b708a8395c8b37d5f343d23308c1f47d78494c81e2"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/035c0aa8-8d16-4018-aa90-28d45314627f/8b62c9f0-b90a-415d-a9c3-a464b0e0e34a.dcm",
+          "bytes": 4985310,
+          "um_per_px": 7.908096449857,
+          "width": 3859,
+          "height": 2467,
+          "sha256": "43caa7af837f34e650ec00223633f16d6df323511b4badd4b570451a118d282a"
+        }
+      }
+    },
+    {
+      "key": "gtex-1qmi2-1925",
+      "specimen": "GTEX-1QMI2-1925",
+      "subject": "GTEX-1QMI2",
+      "tissue": "Adrenal gland",
+      "snomed": "SCT:23451007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2465524771.1704359120.1720452475939.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2308,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0db8e42c-dd20-420a-abe9-7873670d9542/7d58904b-853e-4cc6-b35a-4135b9a0212c.dcm",
+          "bytes": 40669010,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 8667,
+          "sha256": "d41f1d9f848f139aa4a0ca6a5dbadb3ac20f73eefb1c26c255c0daf456e6424f"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0db8e42c-dd20-420a-abe9-7873670d9542/09c24515-43ca-44f0-9cc6-21d7d7c34bdb.dcm",
+          "bytes": 3488542,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 2166,
+          "sha256": "67212785326423e30c292f2ef136658640577ad3e0a44224d2338ee4044afcac"
+        }
+      }
+    },
+    {
+      "key": "gtex-1ax9i-1225",
+      "specimen": "GTEX-1AX9I-1225",
+      "subject": "GTEX-1AX9I",
+      "tissue": "Aorta",
+      "snomed": "SCT:15825003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2391267122.689049296.1720378218290.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2196,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0b3b2904-9f48-4b0a-bdd4-9501b518a469/8e312203-7f81-495e-b24f-08b2a3fbaf95.dcm",
+          "bytes": 41186298,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 10383,
+          "sha256": "2d0f03353328c616804559f121435196f079c8b715eabf67e9cedb3142f69d7e"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0b3b2904-9f48-4b0a-bdd4-9501b518a469/1b2cf8bb-217c-420b-8ab7-65255dcb4047.dcm",
+          "bytes": 3369358,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 2595,
+          "sha256": "713febbe25796a72c05b9dc426bf95d06b6aacae6c1d2975460d01d00b0213b5"
+        }
+      }
+    },
+    {
+      "key": "gtex-1eu9m-1725",
+      "specimen": "GTEX-1EU9M-1725",
+      "subject": "GTEX-1EU9M",
+      "tissue": "Aorta",
+      "snomed": "SCT:15825003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2410996124.1080247905.1720397947292.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1888,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a807ff08-416f-4fc5-a5ca-b3208ef6be2a/b846ea1d-83b5-4b41-bd6a-0898618b73e2.dcm",
+          "bytes": 27427654,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 9004,
+          "sha256": "3c17a091efc055e8baa10a7ddb988225a14ab92288fc68e4b1bf47406e3b4f43"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a807ff08-416f-4fc5-a5ca-b3208ef6be2a/2415cf0e-e297-408f-a971-7752de729660.dcm",
+          "bytes": 2397252,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 2251,
+          "sha256": "bb48eb6d91f430ba8ceace68f7a93407a5e4f003561a2658b0e2433bf4f122fb"
+        }
+      }
+    },
+    {
+      "key": "gtex-rvpv-0425",
+      "specimen": "GTEX-RVPV-0425",
+      "subject": "GTEX-RVPV",
+      "tissue": "Aorta",
+      "snomed": "SCT:15825003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2400476735.1106326940.1720387427903.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1847,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/ce6c58a6-ff15-4f81-b192-297b4639dd2b/58e6cc7d-ecb5-444f-8376-851ebf143f3f.dcm",
+          "bytes": 32536542,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 11087,
+          "sha256": "15d4eceda095358bfa939768812d78b39e61317ddd37986ef1e480f360683944"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/ce6c58a6-ff15-4f81-b192-297b4639dd2b/4221a8fc-1b4e-4550-a314-4e3ab85ff720.dcm",
+          "bytes": 3193448,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 2771,
+          "sha256": "ff0d9fa5ad001abb555813aa7f3bda5ea9f6bbbca35ef7a965ce897e0fd81b0a"
+        }
+      }
+    },
+    {
+      "key": "gtex-14bim-2725",
+      "specimen": "GTEX-14BIM-2725",
+      "subject": "GTEX-14BIM",
+      "tissue": "Auricular appendage",
+      "snomed": "SCT:68786006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2173674535.1916558745.1720160625703.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3285,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8e68b247-4055-4342-ad92-3b1f547d12be/181543de-6431-4622-a772-434e708dc9c6.dcm",
+          "bytes": 71729368,
+          "um_per_px": 1.976887567184,
+          "width": 16931,
+          "height": 9797,
+          "sha256": "c0d6817477926fb362dad96c46afc926c4ff71a23c68550a4036ff891baa17dd"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8e68b247-4055-4342-ad92-3b1f547d12be/4bc860bf-0a4b-43f4-82d1-c2914fd1113f.dcm",
+          "bytes": 7126522,
+          "um_per_px": 7.908951654064,
+          "width": 4232,
+          "height": 2449,
+          "sha256": "4ce7769f4176da96aaf391c9db2e1835be42013c50d926f41f3dd28a7b3bfb26"
+        }
+      }
+    },
+    {
+      "key": "gtex-13cf2-0225",
+      "specimen": "GTEX-13CF2-0225",
+      "subject": "GTEX-13CF2",
+      "tissue": "Auricular appendage",
+      "snomed": "SCT:68786006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2177883754.1567318973.1720164834922.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3012,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a2ec74e5-2830-4a6b-80d4-334c3c561509/6e821a4b-7a6a-46ac-b322-891817f71baa.dcm",
+          "bytes": 43253736,
+          "um_per_px": 1.976924056564,
+          "width": 11951,
+          "height": 9105,
+          "sha256": "c7d3075881e3a13b0623d95438a5df2855cea098fc9e1f7741ab372f0d99abab"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a2ec74e5-2830-4a6b-80d4-334c3c561509/c0a8c629-9943-4b91-b792-cf2887c6d6e2.dcm",
+          "bytes": 4018614,
+          "um_per_px": 7.909681754268001,
+          "width": 2987,
+          "height": 2276,
+          "sha256": "ab0297513b69b5bccf2ec876b73acba624f6bee2bd43919b3f2c1dc5bb30d0c7"
+        }
+      }
+    },
+    {
+      "key": "gtex-1i1cd-1325",
+      "specimen": "GTEX-1I1CD-1325",
+      "subject": "GTEX-1I1CD",
+      "tissue": "Auricular appendage",
+      "snomed": "SCT:68786006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2180921306.2131798466.1720167872474.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.298,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/40823d6f-452c-4160-9929-161a9569b9b2/9abd14f8-6db0-4b89-bd35-2c9dfa917c0f.dcm",
+          "bytes": 30048830,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 6522,
+          "sha256": "9480c47bfde9897141213137e48c3b3fc0b7f9673df666d8c1e5d4899f23fc35"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/40823d6f-452c-4160-9929-161a9569b9b2/5450dd6a-2653-40e1-8a82-890c9f704d8e.dcm",
+          "bytes": 2913364,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 1630,
+          "sha256": "6766c826d29d9dad8aa667bd47c68fd5671e99c2915179fc767c3c0724ce4a9c"
+        }
+      }
+    },
+    {
+      "key": "gtex-1lvam-0925",
+      "specimen": "GTEX-1LVAM-0925",
+      "subject": "GTEX-1LVAM",
+      "tissue": "Breast",
+      "snomed": "SCT:76752008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2292380500.1988171925.1720279331668.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2676,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/dd4ec623-403e-4506-8986-5e3af31a4646/919bf2e4-67ee-4993-aedb-6dba83558d6c.dcm",
+          "bytes": 27526662,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 7742,
+          "sha256": "54907145d4b0b5a7ca0d46cf9d94ac4e5bd68bcfbee0080e5162f084e8f70f43"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/dd4ec623-403e-4506-8986-5e3af31a4646/4ace6d98-a579-49ab-a868-9900b7c4486d.dcm",
+          "bytes": 2956228,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 1935,
+          "sha256": "862a48529a9fdd192a06710a37428e08ddf6b1076c038524463819fbcc18b92a"
+        }
+      }
+    },
+    {
+      "key": "gtex-1jje9-2325",
+      "specimen": "GTEX-1JJE9-2325",
+      "subject": "GTEX-1JJE9",
+      "tissue": "Breast",
+      "snomed": "SCT:76752008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2297292916.1857624945.1720284244084.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.267,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/5ff9b0ae-83a8-43ea-8785-72b13a934467/2f2f5113-32a9-41db-9004-5769411f78b2.dcm",
+          "bytes": 26871638,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 7756,
+          "sha256": "016e70f861ee72d5fd6087912094cfb7c579de14bc5844d908b96375c070dc14"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/5ff9b0ae-83a8-43ea-8785-72b13a934467/905cdd54-b6d1-44ad-a640-5f02c108e379.dcm",
+          "bytes": 2646110,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 1939,
+          "sha256": "87b0c8cc73347123f3c8886b0b101f9553432755770456681820be12373076ff"
+        }
+      }
+    },
+    {
+      "key": "gtex-x4eo-2025",
+      "specimen": "GTEX-X4EO-2025",
+      "subject": "GTEX-X4EO",
+      "tissue": "Breast",
+      "snomed": "SCT:76752008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2293878243.638914024.1720280829411.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.243,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/6229c935-4722-49ca-a6c2-c914e904306c/1ac3cb36-0baa-45f8-a249-ee8f7f0b7d7c.dcm",
+          "bytes": 27248884,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 8900,
+          "sha256": "467c63e95ae60335ad96096d4983c0c987f0605f168cdbe81205b3f03878dbd0"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/6229c935-4722-49ca-a6c2-c914e904306c/9f810374-07d9-4656-8f6e-f6af735de39c.dcm",
+          "bytes": 3019512,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 2225,
+          "sha256": "92f97ad55ff270dc09b50818ad5a1aace4815c609345af8676a96cd648b86c4f"
+        }
+      }
+    },
+    {
+      "key": "gtex-1gz4i-2925",
+      "specimen": "GTEX-1GZ4I-2925",
+      "subject": "GTEX-1GZ4I",
+      "tissue": "Cerebellum",
+      "snomed": "SCT:113305005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2229137441.1338107427.1720216088609.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2228,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/65ff5e5c-37ee-4802-ba5d-78f388620723/dfca53ac-8e8c-4741-8f16-c320a2aeb278.dcm",
+          "bytes": 29316328,
+          "um_per_px": 1.9769417806249998,
+          "width": 10457,
+          "height": 7936,
+          "sha256": "b50159b83e1eff4ac5123240196cbfa8ed95fc132cb5a242c9852d81bc81a29b"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/65ff5e5c-37ee-4802-ba5d-78f388620723/9c40acce-c61a-4847-bf95-050a0a86803b.dcm",
+          "bytes": 2380696,
+          "um_per_px": 7.908523412395001,
+          "width": 2614,
+          "height": 1984,
+          "sha256": "02055647806fa9112922e97bea5928c427dc101720f2626a4041242c87c525a7"
+        }
+      }
+    },
+    {
+      "key": "gtex-1e2ya-2925",
+      "specimen": "GTEX-1E2YA-2925",
+      "subject": "GTEX-1E2YA",
+      "tissue": "Cerebellum",
+      "snomed": "SCT:113305005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2228151235.1013437468.1720215102403.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.22,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/66323212-bd19-4ef7-8f3b-7f6a8b45586a/7cebc30e-e12d-4b5e-93f7-4bb844c379aa.dcm",
+          "bytes": 30811142,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 8518,
+          "sha256": "f8083125714830d29a66a94f3269416ad17c31d43975871b421103d6867740c3"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/66323212-bd19-4ef7-8f3b-7f6a8b45586a/7372f063-aabd-42fe-9673-7f30eb15fc16.dcm",
+          "bytes": 2565214,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 2129,
+          "sha256": "03db61ce3648c97cdead7e7daf2d0293567c284a96287397f058b07426baa7f3"
+        }
+      }
+    },
+    {
+      "key": "gtex-111vg-2925",
+      "specimen": "GTEX-111VG-2925",
+      "subject": "GTEX-111VG",
+      "tissue": "Cerebellum",
+      "snomed": "SCT:113305005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2230770603.1995000328.1720217721771.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2173,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/20a298ab-c898-4892-a205-17b087b2241f/56a1506b-3d55-4627-b820-3589deb02700.dcm",
+          "bytes": 53946610,
+          "um_per_px": 1.97690266602,
+          "width": 14441,
+          "height": 10123,
+          "sha256": "4f2a210c6c2c204366a2e3ecf09da291d34731d461d609c66657d55de2bc0d16"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/20a298ab-c898-4892-a205-17b087b2241f/34fc294d-edd5-41ce-8392-97dca6fc3cc5.dcm",
+          "bytes": 4329946,
+          "um_per_px": 7.908158282548001,
+          "width": 3610,
+          "height": 2530,
+          "sha256": "da19f42fd44e6856564f87da508132a0f38109d40b77d0c0d9eca0e826b3eb77"
+        }
+      }
+    },
+    {
+      "key": "gtex-1cb4j-2925",
+      "specimen": "GTEX-1CB4J-2925",
+      "subject": "GTEX-1CB4J",
+      "tissue": "Cerebral cortex",
+      "snomed": "SCT:40146001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2063184174.1455041829.1720050135342.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3612,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1f0ab520-490f-4f8c-a80d-d319a08966af/5d0ad769-3f9c-44f0-b37d-da9076a84639.dcm",
+          "bytes": 37100604,
+          "um_per_px": 1.9769353354629997,
+          "width": 10955,
+          "height": 7021,
+          "sha256": "512e0ee3cab8653c40338cb1e331dba9db4dacee2f7b6dc03816f340d926d206"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1f0ab520-490f-4f8c-a80d-d319a08966af/10c5fe92-bc28-48de-9232-450b5c18aeea.dcm",
+          "bytes": 3284878,
+          "um_per_px": 7.909907450694,
+          "width": 2738,
+          "height": 1755,
+          "sha256": "8b23f77fe56f427bfa6f047ecab89bc6cf6d96babb8990d9e3865791b0ee1b61"
+        }
+      }
+    },
+    {
+      "key": "gtex-15uf6-3025",
+      "specimen": "GTEX-15UF6-3025",
+      "subject": "GTEX-15UF6",
+      "tissue": "Cerebral cortex",
+      "snomed": "SCT:40146001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2062526859.869431737.1720049478027.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3255,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/39344d1e-ea15-4e2b-8f8f-c677c6b4e8e9/4541076a-ebc8-4dc1-8b96-ce589f1baa45.dcm",
+          "bytes": 28098920,
+          "um_per_px": 1.9769654133660002,
+          "width": 8963,
+          "height": 6621,
+          "sha256": "e2ac3da76164a3bcec4d9ba44d361dd9c1f6b861a26586a61705b144311d60b6"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/39344d1e-ea15-4e2b-8f8f-c677c6b4e8e9/8808c55f-67b5-47e5-960f-818d4476fd4b.dcm",
+          "bytes": 2252204,
+          "um_per_px": 7.910509374999999,
+          "width": 2240,
+          "height": 1655,
+          "sha256": "2bfe02f549bd5ece3005dc4a2f116e97074aee9f97a1514ffbc758116017bd0c"
+        }
+      }
+    },
+    {
+      "key": "gtex-11gsp-3225",
+      "specimen": "GTEX-11GSP-3225",
+      "subject": "GTEX-11GSP",
+      "tissue": "Cerebral cortex",
+      "snomed": "SCT:40146001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2061415975.1109079357.1720048367143.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2959,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/574c1a62-56fd-4e04-83ff-a10a605905c8/d769846c-5cb6-4f73-8116-144fbcbbabb2.dcm",
+          "bytes": 41559040,
+          "um_per_px": 1.976924056564,
+          "width": 11951,
+          "height": 9104,
+          "sha256": "712e61d04f2e78ed8ae802e4eab6c19c3f58a4810e81074f4b3a0211dab0ce28"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/574c1a62-56fd-4e04-83ff-a10a605905c8/88687adb-174a-42e3-ab48-f419c7c970f8.dcm",
+          "bytes": 3517970,
+          "um_per_px": 7.909681754268001,
+          "width": 2987,
+          "height": 2276,
+          "sha256": "2da7e10f9ebd141276273e151c8cf00334c126cc7ef960d983c463bfd6a8e809"
+        }
+      }
+    },
+    {
+      "key": "gtex-1h11d-1425",
+      "specimen": "GTEX-1H11D-1425",
+      "subject": "GTEX-1H11D",
+      "tissue": "Coronary artery",
+      "snomed": "SCT:41801008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2219529930.1765978922.1720206481098.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1639,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/28e598f4-1109-48c0-9ab7-05d93042ee4a/13caf7ab-b175-4afa-a8fa-298aed4523c9.dcm",
+          "bytes": 8103074,
+          "um_per_px": 1.9769567064790001,
+          "width": 9461,
+          "height": 4321,
+          "sha256": "66367bc4fe7314a321c32154b49199eaa6c1304382b41cde7d6d1d177c8272a6"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/28e598f4-1109-48c0-9ab7-05d93042ee4a/b5760a9c-a105-4c36-8a8d-7a97757a2972.dcm",
+          "bytes": 997896,
+          "um_per_px": 7.908662748414,
+          "width": 2365,
+          "height": 1080,
+          "sha256": "232b6078c0a3d3817924fff44919cba8da01ca901bd47a94606f78a32b43b866"
+        }
+      }
+    },
+    {
+      "key": "gtex-r45c-0825",
+      "specimen": "GTEX-R45C-0825",
+      "subject": "GTEX-R45C",
+      "tissue": "Coronary artery",
+      "snomed": "SCT:41801008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2215651018.721545846.1720202602186.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1199,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9f20c2fe-6170-456c-b66b-0727a1a1e857/4911438d-b34f-4523-a8e4-d481ce811ced.dcm",
+          "bytes": 9229678,
+          "um_per_px": 1.9769654133660002,
+          "width": 8963,
+          "height": 5378,
+          "sha256": "4b69739572966f63eb4456d52142c043d4a5c9dc0a1fbdb77b3e880a79a84b44"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9f20c2fe-6170-456c-b66b-0727a1a1e857/e5d0509b-c063-4790-9917-9a8c65951ff8.dcm",
+          "bytes": 1266490,
+          "um_per_px": 7.910509374999999,
+          "width": 2240,
+          "height": 1344,
+          "sha256": "0ebe88060c2e5728e45d5baf64225226482fb057bd0bddbb195e541ad4123e36"
+        }
+      }
+    },
+    {
+      "key": "gtex-13nza-1125",
+      "specimen": "GTEX-13NZA-1125",
+      "subject": "GTEX-13NZA",
+      "tissue": "Coronary artery",
+      "snomed": "SCT:41801008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2216627228.390227084.1720203578396.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1122,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/2e0ccc3c-44eb-4ce8-b9de-5a29b0b49043/d881cae0-bbdc-454f-beae-fbcf0a3c7104.dcm",
+          "bytes": 9232460,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 5126,
+          "sha256": "e6a721a89c6d5998f0c3e6fd512435f99d80fa338ee3cfefdf6b0755af932a42"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/2e0ccc3c-44eb-4ce8-b9de-5a29b0b49043/600c9d76-ea1a-4b69-a5f4-83e89b4353d6.dcm",
+          "bytes": 1078134,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 1281,
+          "sha256": "275be60018d6a1a02cd04e6bd0121ee313104b56a577e4e152fa7761de7bce74"
+        }
+      }
+    },
+    {
+      "key": "gtex-s341-1325",
+      "specimen": "GTEX-S341-1325",
+      "subject": "GTEX-S341",
+      "tissue": "Endocervix",
+      "snomed": "SCT:36973007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2164972862.5994236.1720151924030.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3206,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/aff2a125-cbe6-4172-8898-826b7c34c55a/5314a95c-2170-48c7-a95e-038c7034bb10.dcm",
+          "bytes": 53049424,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 9534,
+          "sha256": "c1d0400366e243c31a9b6df9d29a2dbf5007cf0b6f9c39542ea1d591fd8a6fbd"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/aff2a125-cbe6-4172-8898-826b7c34c55a/509fd039-2aea-4c92-8805-3f1ea1026cef.dcm",
+          "bytes": 4250702,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 2383,
+          "sha256": "f1be09375dd2b1f6290a6760aec1e924a4149fd037384878a9e31ddf2195a3bf"
+        }
+      }
+    },
+    {
+      "key": "gtex-s32w-1625",
+      "specimen": "GTEX-S32W-1625",
+      "subject": "GTEX-S32W",
+      "tissue": "Endocervix",
+      "snomed": "SCT:36973007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2165135072.2023981616.1720152086240.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2953,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c817f2d7-2fca-4633-a834-e85e1fa3b946/80857d10-561a-4d6b-88a2-7eba33521876.dcm",
+          "bytes": 31100434,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 7874,
+          "sha256": "fd1bb2de4be09473e5cecefd8a6eadbc43a3064c7ad82e21ab2e20799fc71b38"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c817f2d7-2fca-4633-a834-e85e1fa3b946/2e32ee4a-5ab7-49c1-9bd2-f8ce1592924a.dcm",
+          "bytes": 2953652,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 1968,
+          "sha256": "c99ea91270f4b74bb4bfbe2039fe91d56f1937cca4331636d88a8e1c8a79a687"
+        }
+      }
+    },
+    {
+      "key": "gtex-p4qt-2225",
+      "specimen": "GTEX-P4QT-2225",
+      "subject": "GTEX-P4QT",
+      "tissue": "Endocervix",
+      "snomed": "SCT:36973007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2165363457.737956166.1720152314625.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.257,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/cfc04b0a-4199-40e5-8f29-376d46b413cd/518efacf-a85e-4f45-ab80-52073f831252.dcm",
+          "bytes": 21442350,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 5901,
+          "sha256": "04f8786d7c3035e4d00c42c5eb35b1e2cc7f5c8dc2e2e961e760cb5d2b982fb2"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/cfc04b0a-4199-40e5-8f29-376d46b413cd/27cc42c5-e37d-47d4-9f98-64f5f45195c1.dcm",
+          "bytes": 2096892,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 1475,
+          "sha256": "d90f415851eeb8525f2a279b2e0f132b48bb5290da2b0cfd5b1c85563f2f67c9"
+        }
+      }
+    },
+    {
+      "key": "gtex-14e6e-0725",
+      "specimen": "GTEX-14E6E-0725",
+      "subject": "GTEX-14E6E",
+      "tissue": "Esophageal mucous membrane",
+      "snomed": "SCT:82082004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2420827298.1387789706.1720407778466.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2382,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/d7df591a-0e50-4ffd-8067-0788c4ccb7d7/01934106-fb8b-4e58-9e8e-dffdf4b9f630.dcm",
+          "bytes": 56564868,
+          "um_per_px": 1.976890220897,
+          "width": 16433,
+          "height": 10069,
+          "sha256": "7c6947dc040dfd94c0265bd69e8feed0a25b575ed5818ce2a9f9bf62051f3064"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/d7df591a-0e50-4ffd-8067-0788c4ccb7d7/9394a2b3-9c18-49e3-b7e8-1a8c87a8930c.dcm",
+          "bytes": 5008284,
+          "um_per_px": 7.9080421129500005,
+          "width": 4108,
+          "height": 2517,
+          "sha256": "cad126935d9775a66a2c4e9bf4c6d3cc2e14daf2393726d864307da62a2e65aa"
+        }
+      }
+    },
+    {
+      "key": "gtex-1lb8k-1325",
+      "specimen": "GTEX-1LB8K-1325",
+      "subject": "GTEX-1LB8K",
+      "tissue": "Esophageal mucous membrane",
+      "snomed": "SCT:82082004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2428324788.1619309977.1720415275956.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.151,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/56eb158c-52f0-4dfd-843d-57b9ac6ecc91/cb31e59e-ce06-4255-aa18-e4da5f92754a.dcm",
+          "bytes": 29932382,
+          "um_per_px": 1.9769102714759998,
+          "width": 13445,
+          "height": 11514,
+          "sha256": "5ab63a0a00470af73a02b1aeb56d5f21163562cb2e0e6362a14e9a7aca4cde5c"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/56eb158c-52f0-4dfd-843d-57b9ac6ecc91/5fc46aaa-65e1-494d-b658-f2cc40948ceb.dcm",
+          "bytes": 2843618,
+          "um_per_px": 7.908229277000999,
+          "width": 3361,
+          "height": 2878,
+          "sha256": "18f6a24353265dcbfc35ab79484e2d3ff7f2d995fa9f816a9f8b6906f36a881e"
+        }
+      }
+    },
+    {
+      "key": "gtex-11tuw-1325",
+      "specimen": "GTEX-11TUW-1325",
+      "subject": "GTEX-11TUW",
+      "tissue": "Esophageal mucous membrane",
+      "snomed": "SCT:82082004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2425003572.281439300.1720411954740.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1326,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/014ccc58-6830-418d-b22c-ed6ae422d912/9539b63b-cab0-470f-b987-dca0f0d73a42.dcm",
+          "bytes": 34525930,
+          "um_per_px": 1.9769063329269998,
+          "width": 13943,
+          "height": 10664,
+          "sha256": "d09941631820a3c96a3d559bd7b37005a15960fbdb5774249da51b8555974365"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/014ccc58-6830-418d-b22c-ed6ae422d912/6a4faddf-736f-47fb-83c4-cd803e7aaa2f.dcm",
+          "bytes": 3120912,
+          "um_per_px": 7.909327116212001,
+          "width": 3485,
+          "height": 2666,
+          "sha256": "decd67d5b129a29b5929648f89b61c0de7fcca968931db54fdf9d91e3499e800"
+        }
+      }
+    },
+    {
+      "key": "gtex-wyvs-0825",
+      "specimen": "GTEX-WYVS-0825",
+      "subject": "GTEX-WYVS",
+      "tissue": "Esophageal muscle",
+      "snomed": "SCT:360961009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2450196457.862526237.1720437147625.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2583,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/91328a1a-e87e-4e1d-8226-e113b363c538/a35006e7-ed1c-40a9-88a1-9744afa2fe46.dcm",
+          "bytes": 52192214,
+          "um_per_px": 1.9768930404770002,
+          "width": 15935,
+          "height": 8687,
+          "sha256": "9e6d126553ecffcd0665fa09a7b71c18a4cefb957dc0f03d71834091a4103e25"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/91328a1a-e87e-4e1d-8226-e113b363c538/d87a0f7e-1f3c-49af-91bc-ff00d09d324c.dcm",
+          "bytes": 5306010,
+          "um_per_px": 7.90906115993,
+          "width": 3983,
+          "height": 2171,
+          "sha256": "0bc14110cb88f65f1767f29f09c1ae20370223912be122d5b4807570005358c0"
+        }
+      }
+    },
+    {
+      "key": "gtex-yb5e-0825",
+      "specimen": "GTEX-YB5E-0825",
+      "subject": "GTEX-YB5E",
+      "tissue": "Esophageal muscle",
+      "snomed": "SCT:360961009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2440727471.1557667622.1720427678639.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2213,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a3f90d2a-3263-4129-b39e-6e5b0700a497/0b0a893b-fce2-43ce-8ef3-8b168343f179.dcm",
+          "bytes": 47996714,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 10753,
+          "sha256": "18d9647a0d903020f975be9ba9354b800845b9a5ce8c607320430150dd402cfa"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a3f90d2a-3263-4129-b39e-6e5b0700a497/9b073b6c-3112-4879-8277-192485268dd1.dcm",
+          "bytes": 4540312,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 2688,
+          "sha256": "64593c1fef93fb7283eaadaf7cdc6d23dcd7af02b93f8cf22d8ba1956f9d64e1"
+        }
+      }
+    },
+    {
+      "key": "gtex-1nsgn-2225",
+      "specimen": "GTEX-1NSGN-2225",
+      "subject": "GTEX-1NSGN",
+      "tissue": "Esophageal muscle",
+      "snomed": "SCT:360961009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2444959533.1325872989.1720431910701.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2004,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/18c6395a-e0b3-48ed-8409-9ba69c9ad044/bd3b12d2-df2d-4abf-a6fe-78ff9eb51b6b.dcm",
+          "bytes": 29888486,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 8881,
+          "sha256": "dbf9ff059760c654beaa7ed20937a7933ed353ddc0a38d648bbfb80d5e17953a"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/18c6395a-e0b3-48ed-8409-9ba69c9ad044/08f26ada-4665-4642-98d7-9c5826912f84.dcm",
+          "bytes": 2748400,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 2220,
+          "sha256": "a05967f3da88050b90d68d24ebc396a8e8dc2d0cc1a55328a920f5da1e7d8826"
+        }
+      }
+    },
+    {
+      "key": "gtex-qvjo-2725",
+      "specimen": "GTEX-QVJO-2725",
+      "subject": "GTEX-QVJO",
+      "tissue": "Exocervix",
+      "snomed": "SCT:28349006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2081307349.2018554979.1720068258517.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2918,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/43e55c03-61cf-4947-9344-011ffef3d281/bcc74ace-8989-47c2-b7e5-24f4735edde3.dcm",
+          "bytes": 38044452,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 9839,
+          "sha256": "14c4c30deaf6cf53e856af0a6579ad7c8599d392add0ee306707e01891175886"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/43e55c03-61cf-4947-9344-011ffef3d281/c5b4a8ec-49db-4e8a-91be-3fc30ba42bd6.dcm",
+          "bytes": 3541714,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 2459,
+          "sha256": "dbccb951996e4b78749995401962cde17eeef8316de0dabd2b00985bfd201c02"
+        }
+      }
+    },
+    {
+      "key": "gtex-q734-1525",
+      "specimen": "GTEX-Q734-1525",
+      "subject": "GTEX-Q734",
+      "tissue": "Exocervix",
+      "snomed": "SCT:28349006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2081439466.285394255.1720068390634.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2862,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/ca5c830d-0b94-4266-9f3f-f97bba5ca9e4/1dd28032-9bdf-4fb3-86fd-8f5b7b5caa87.dcm",
+          "bytes": 25193716,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 6656,
+          "sha256": "9d58f3f2a8dc252f61545151c32717edff60cc0113176c61aa2633667be36d74"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/ca5c830d-0b94-4266-9f3f-f97bba5ca9e4/37d6b8df-fc36-4020-ae91-9aa95077246a.dcm",
+          "bytes": 2358314,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 1664,
+          "sha256": "d0cb378a836cdad0d543aa048d488cbce77bd4fcb2a6abbf33f727c42c7deb8b"
+        }
+      }
+    },
+    {
+      "key": "gtex-r45c-2625",
+      "specimen": "GTEX-R45C-2625",
+      "subject": "GTEX-R45C",
+      "tissue": "Exocervix",
+      "snomed": "SCT:28349006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2080903218.1188193146.1720067854386.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2795,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8b0ad9d8-30bd-4486-928d-6ec161f966c2/b5734d03-d7c4-4fd3-bced-6d8c278f64ee.dcm",
+          "bytes": 34346404,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 9115,
+          "sha256": "c99b17c87a729773939c0923ffa5afd6b25e6171b20891c01d8b0e3d262e16a0"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8b0ad9d8-30bd-4486-928d-6ec161f966c2/4bbe39b8-db7a-4ee2-b8f7-0df9bc1d42ef.dcm",
+          "bytes": 3150630,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 2278,
+          "sha256": "64eaa71ac0e8e674e521c453d411963158244e3971751453e80f99dfaead5004"
+        }
+      }
+    },
+    {
+      "key": "gtex-ru72-2325",
+      "specimen": "GTEX-RU72-2325",
+      "subject": "GTEX-RU72",
+      "tissue": "Fallopian tube",
+      "snomed": "SCT:31435000",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2213916025.463519162.1720200867193.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2296,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/82b12abb-2d45-4fae-8e44-83ef09a572ca/62de4532-1ff1-4889-aa4d-3864a6256d33.dcm",
+          "bytes": 11126806,
+          "um_per_px": 1.9769860926320002,
+          "width": 7967,
+          "height": 3939,
+          "sha256": "13e2919cbc9ca1130d0786e422a6813171681e53d9eed8134b6d8aef4f0d4d38"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/82b12abb-2d45-4fae-8e44-83ef09a572ca/b429f022-77a1-4326-91e5-eda408962f8d.dcm",
+          "bytes": 1214110,
+          "um_per_px": 7.910923254646001,
+          "width": 1991,
+          "height": 984,
+          "sha256": "b86bf91cf41bb161073d2969c6ed7546070f93dc864bbe78f96cae51cfdd2b05"
+        }
+      }
+    },
+    {
+      "key": "gtex-qvjo-3025",
+      "specimen": "GTEX-QVJO-3025",
+      "subject": "GTEX-QVJO",
+      "tissue": "Fallopian tube",
+      "snomed": "SCT:31435000",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2214090500.677053497.1720201041668.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1863,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1802f8d3-bd41-4e9d-9b83-37e43ed8cf7a/171bf568-a780-4f29-9c27-d52632688202.dcm",
+          "bytes": 11194910,
+          "um_per_px": 1.9769654133660002,
+          "width": 8963,
+          "height": 4015,
+          "sha256": "173cde02aa6d0f6bdf8150fd3c52c964195cb9728180a9c6dcd0aab15ff761c3"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1802f8d3-bd41-4e9d-9b83-37e43ed8cf7a/38a08f48-d49d-42d1-a62f-c82226fabdf5.dcm",
+          "bytes": 1283052,
+          "um_per_px": 7.910509374999999,
+          "width": 2240,
+          "height": 1003,
+          "sha256": "4f4d3259603297e66fea3d006f89ad351c950607ddae1c2d9a34297628e3407f"
+        }
+      }
+    },
+    {
+      "key": "gtex-ohpl-2325",
+      "specimen": "GTEX-OHPL-2325",
+      "subject": "GTEX-OHPL",
+      "tissue": "Fallopian tube",
+      "snomed": "SCT:31435000",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2213998353.154706489.1720200949521.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1268,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/d6f61ae7-f0b3-4f2f-a3d5-aa7b429e2291/3b249853-cfa7-47ec-a3ac-63e08f01af65.dcm",
+          "bytes": 10009588,
+          "um_per_px": 1.9769567064790001,
+          "width": 9461,
+          "height": 4281,
+          "sha256": "6ade3cba4fe6572cd124b6517549efb2efe24f76540f3d6ec7e93023bfdc73d6"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/d6f61ae7-f0b3-4f2f-a3d5-aa7b429e2291/22110ff5-3293-4715-a621-57ddb9ada5a2.dcm",
+          "bytes": 1122138,
+          "um_per_px": 7.908662748414,
+          "width": 2365,
+          "height": 1070,
+          "sha256": "4f8f2d51487a2dfea99c7cc15b5120fdfdd2f679fd18c608c77eea451b5ceb65"
+        }
+      }
+    },
+    {
+      "key": "gtex-14pj4-1325",
+      "specimen": "GTEX-14PJ4-1325",
+      "subject": "GTEX-14PJ4",
+      "tissue": "Gastroesophageal junction",
+      "snomed": "SCT:25271004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2006947657.1570129833.1719993898825.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.366,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/04751701-d7b8-422d-9c8e-74223397c96b/bba63b33-58f8-45bd-9162-9377f5a29f4b.dcm",
+          "bytes": 89271678,
+          "um_per_px": 1.97688270207,
+          "width": 17927,
+          "height": 9522,
+          "sha256": "4e09df46b76d81375df2104e498f1da27fe0c8ff7c4f17b3da498d9c9edd7155"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/04751701-d7b8-422d-9c8e-74223397c96b/9b13508c-d891-4e06-9074-82603f0277a5.dcm",
+          "bytes": 8242900,
+          "um_per_px": 7.908854318233001,
+          "width": 4481,
+          "height": 2380,
+          "sha256": "5f4eeaabd426fc616390bb3712c8254600b35c32542fd7cf1a41e8956bf884a9"
+        }
+      }
+    },
+    {
+      "key": "gtex-111cu-0825",
+      "specimen": "GTEX-111CU-0825",
+      "subject": "GTEX-111CU",
+      "tissue": "Gastroesophageal junction",
+      "snomed": "SCT:25271004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2010648067.416806254.1719997599235.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3617,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a4f232cf-4cae-4345-9c6f-cd2c23e74334/94646a98-fdd8-4318-aee2-ae5a3d402881.dcm",
+          "bytes": 97227480,
+          "um_per_px": 1.9768804667570001,
+          "width": 18425,
+          "height": 10574,
+          "sha256": "423e32d23a37de71df5fec5fc2eaae6b3f974255f86e19ca38d3845d5c9f7b24"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a4f232cf-4cae-4345-9c6f-cd2c23e74334/65b7d374-65a8-4164-854f-b074180ef018.dcm",
+          "bytes": 9170698,
+          "um_per_px": 7.907951063830001,
+          "width": 4606,
+          "height": 2643,
+          "sha256": "00c05049fe86f51542035171b6ee195811ddcbdf52ed839e9a3fcdbf3038baf4"
+        }
+      }
+    },
+    {
+      "key": "gtex-zf2s-1325",
+      "specimen": "GTEX-ZF2S-1325",
+      "subject": "GTEX-ZF2S",
+      "tissue": "Gastroesophageal junction",
+      "snomed": "SCT:25271004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2009737644.1095484852.1719996688812.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2854,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/696b8ea4-1f3f-4be8-a93e-7c5f23e0f722/5f74f732-6967-42fc-9b87-212f2815cd39.dcm",
+          "bytes": 78721586,
+          "um_per_px": 1.9768804667570001,
+          "width": 18425,
+          "height": 10059,
+          "sha256": "c5d4c5d2f8949b6019401d69e4ca128c4543e07532e6aa265a243edb2a620ded"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/696b8ea4-1f3f-4be8-a93e-7c5f23e0f722/5c6a0c67-9753-4210-822e-aefd998a5ce8.dcm",
+          "bytes": 7122212,
+          "um_per_px": 7.907951063830001,
+          "width": 4606,
+          "height": 2514,
+          "sha256": "5cee8a028245f96f54766a7edf9b7ca90643583ce3e88311e9faa281a35a8a3b"
+        }
+      }
+    },
+    {
+      "key": "gtex-siu7-0425",
+      "specimen": "GTEX-SIU7-0425",
+      "subject": "GTEX-SIU7",
+      "tissue": "Heart",
+      "snomed": "SCT:80891009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2256825551.887664887.1720243776719.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3242,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/602a8034-3745-4681-972a-488f845c3f86/901701c8-b7e3-4c5f-9d0f-711137cc6e5a.dcm",
+          "bytes": 40409422,
+          "um_per_px": 1.976924056564,
+          "width": 11951,
+          "height": 6913,
+          "sha256": "946ac7e0cd93bf758dac3b88a31485319776d9538b724d24745a05610ab862e0"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/602a8034-3745-4681-972a-488f845c3f86/21a423fb-ccab-43ef-9af6-65b0e722c63a.dcm",
+          "bytes": 3816034,
+          "um_per_px": 7.909681754268001,
+          "width": 2987,
+          "height": 1728,
+          "sha256": "5712b8f8af80741cd71ff53e895d7f59967c913b8d9bc8ffd1a9c9afb3d87467"
+        }
+      }
+    },
+    {
+      "key": "gtex-1razs-0825",
+      "specimen": "GTEX-1RAZS-0825",
+      "subject": "GTEX-1RAZS",
+      "tissue": "Heart",
+      "snomed": "SCT:80891009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2258365235.1154663115.1720245316403.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2774,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8c1d5802-7a15-474e-aa8e-710ebbcc0470/49e0a59f-797c-40b4-997e-d6f8e00c14f1.dcm",
+          "bytes": 39116176,
+          "um_per_px": 1.976924056564,
+          "width": 11951,
+          "height": 7864,
+          "sha256": "c899a176d39b164e48a3ab2f7de0ea4855efa25a7622d954fb53491a41ed9245"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8c1d5802-7a15-474e-aa8e-710ebbcc0470/b597e12e-2c2b-456a-9951-5baaf5d13440.dcm",
+          "bytes": 3684580,
+          "um_per_px": 7.909681754268001,
+          "width": 2987,
+          "height": 1966,
+          "sha256": "dcd075c275f7ffb0496a7f8b7de4d45a7689e9baf5b882eab3ef965bd892bb26"
+        }
+      }
+    },
+    {
+      "key": "gtex-1j8q3-1225",
+      "specimen": "GTEX-1J8Q3-1225",
+      "subject": "GTEX-1J8Q3",
+      "tissue": "Heart",
+      "snomed": "SCT:80891009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2263485874.404984728.1720250437042.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2414,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/b730c9f5-57f8-482e-a3df-4d68e76d759d/e405ec6b-bddf-4d28-8844-e5972ed0207f.dcm",
+          "bytes": 46778612,
+          "um_per_px": 1.97690266602,
+          "width": 14441,
+          "height": 9606,
+          "sha256": "929373301bc6d3f760c41ddd54c53eb971f5c71eef161645fd039bd00c4daffc"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/b730c9f5-57f8-482e-a3df-4d68e76d759d/ea4c17e4-8449-4f9b-9312-99e478ae457a.dcm",
+          "bytes": 4102354,
+          "um_per_px": 7.908158282548001,
+          "width": 3610,
+          "height": 2401,
+          "sha256": "5a9dc385f087eee8ce66f8b80778fb4cc0f4de060920eb3ea7578bf0e0bd506c"
+        }
+      }
+    },
+    {
+      "key": "gtex-1hcu9-1225",
+      "specimen": "GTEX-1HCU9-1225",
+      "subject": "GTEX-1HCU9",
+      "tissue": "Ileum",
+      "snomed": "SCT:34516001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2323416517.1132332559.1720310367685.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2533,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a1ace49e-4648-4b77-b4db-989f6917df6c/52e64ba8-af98-491e-927b-b1d8946c3e0b.dcm",
+          "bytes": 46215316,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 9284,
+          "sha256": "79b34c5339bbc24a36beb9ee3be552ba79d05b6b3f0334828898aadc7c09a880"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a1ace49e-4648-4b77-b4db-989f6917df6c/130aff8b-2af7-4a80-99ec-dbe8bc279458.dcm",
+          "bytes": 4281012,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 2321,
+          "sha256": "df1f613442f1da1856bc11e5cb6b7c39e1567cfe8953f0c0ac19c82a4a904d1d"
+        }
+      }
+    },
+    {
+      "key": "gtex-145mn-1625",
+      "specimen": "GTEX-145MN-1625",
+      "subject": "GTEX-145MN",
+      "tissue": "Ileum",
+      "snomed": "SCT:34516001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2324969364.892100883.1720311920532.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2146,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/65339efe-608c-4f00-a67b-a4d83aa96e16/861cb100-df4a-4c64-8656-eb90b9d56c3d.dcm",
+          "bytes": 41275270,
+          "um_per_px": 1.9769102714759998,
+          "width": 13445,
+          "height": 9054,
+          "sha256": "296408c877ef5aa41157a9ecef09638f118d52afddfe070ecbf2e759c28fe72e"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/65339efe-608c-4f00-a67b-a4d83aa96e16/b085209d-11d6-4c73-b90f-408c11fabfdf.dcm",
+          "bytes": 3621696,
+          "um_per_px": 7.908229277000999,
+          "width": 3361,
+          "height": 2263,
+          "sha256": "8bc3bcd901e0d08c7e31df6b0f8ced2ecfccd7641439e68059465a5da6d51921"
+        }
+      }
+    },
+    {
+      "key": "gtex-yb5k-1125",
+      "specimen": "GTEX-YB5K-1125",
+      "subject": "GTEX-YB5K",
+      "tissue": "Ileum",
+      "snomed": "SCT:34516001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2335923259.116175890.1720322874427.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2143,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8b0f4f06-1927-430b-83d4-b2585630fb01/bad7e290-bc1b-40d5-8692-786399f23bd7.dcm",
+          "bytes": 44822306,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 10736,
+          "sha256": "e7a48f10d3f67e5d5a1c51cd03a64b4b7bbbefb4b31fa843f11381170523cc02"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8b0f4f06-1927-430b-83d4-b2585630fb01/cd28ac23-a0a2-44cb-9b32-5349d66732dc.dcm",
+          "bytes": 3992494,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 2684,
+          "sha256": "022a0849861488274efd7d8af8e5d2a36a81ef804d780aa779c970322ac3e30e"
+        }
+      }
+    },
+    {
+      "key": "gtex-1i1gs-0825",
+      "specimen": "GTEX-1I1GS-0825",
+      "subject": "GTEX-1I1GS",
+      "tissue": "Liver",
+      "snomed": "SCT:10200004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2237132735.1146100230.1720224083903.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3892,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/592a0748-0214-4a7e-b394-dfbc387023cd/7a47709d-c5dc-4f0b-bb0f-589139b49829.dcm",
+          "bytes": 56223800,
+          "um_per_px": 1.9769063329269998,
+          "width": 13943,
+          "height": 8078,
+          "sha256": "1529835c43589fcd9fbfcd2611c117acf4b232ed217957ad541ecc6397bb73e7"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/592a0748-0214-4a7e-b394-dfbc387023cd/2e57bb23-be09-49a9-9e63-eb201d93f039.dcm",
+          "bytes": 4577320,
+          "um_per_px": 7.909327116212001,
+          "width": 3485,
+          "height": 2019,
+          "sha256": "6d76beef819f791f06b0aaac8dbdb356a8270ad813b98bd67506fddbb78715ec"
+        }
+      }
+    },
+    {
+      "key": "gtex-1f6if-1925",
+      "specimen": "GTEX-1F6IF-1925",
+      "subject": "GTEX-1F6IF",
+      "tissue": "Liver",
+      "snomed": "SCT:10200004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2239149518.404844432.1720226100686.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3833,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/f58db7c6-872a-472d-b1fc-5a59095d2bb8/4442a26c-508a-402d-9152-9e9844f5b70b.dcm",
+          "bytes": 59087870,
+          "um_per_px": 1.9769102714759998,
+          "width": 13445,
+          "height": 8000,
+          "sha256": "2d12b29f6f0edd769b66e98e218b8cd8da8098fcbb6ccb3757be4a3ee72df3ee"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/f58db7c6-872a-472d-b1fc-5a59095d2bb8/0af26036-50db-400b-aaec-cd8831739c4c.dcm",
+          "bytes": 5123056,
+          "um_per_px": 7.908229277000999,
+          "width": 3361,
+          "height": 2000,
+          "sha256": "222aeafc42f51afe473ac38fec72a329708fdd28ef8a5a544c02c224f5b47038"
+        }
+      }
+    },
+    {
+      "key": "gtex-x4ep-1025",
+      "specimen": "GTEX-X4EP-1025",
+      "subject": "GTEX-X4EP",
+      "tissue": "Liver",
+      "snomed": "SCT:10200004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2239280938.1056286661.1720226232106.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3664,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1a78ae87-54ac-4a68-b1af-150e144147f0/de57e7dd-8419-4973-bc20-9489630814aa.dcm",
+          "bytes": 44140386,
+          "um_per_px": 1.9769417806249998,
+          "width": 10457,
+          "height": 7936,
+          "sha256": "70cbabf716e6ac9740a16f973a4bab2997462c54741f88a468c3e98850559863"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1a78ae87-54ac-4a68-b1af-150e144147f0/5f77d30e-233e-4ce4-b428-d50753313c9d.dcm",
+          "bytes": 3944562,
+          "um_per_px": 7.908523412395001,
+          "width": 2614,
+          "height": 1984,
+          "sha256": "d2d0aaf732037e21cb22c3da13d30ee206ef3760d4ffd065f705b2c30fdc54d9"
+        }
+      }
+    },
+    {
+      "key": "gtex-12zzz-1125",
+      "specimen": "GTEX-12ZZZ-1125",
+      "subject": "GTEX-12ZZZ",
+      "tissue": "Lung",
+      "snomed": "SCT:39607008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2338258142.412127182.1720325209310.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3075,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/57bc62c7-108e-4c21-9b74-458a9138ff01/e8931469-5470-48a3-94eb-2e1272f72b49.dcm",
+          "bytes": 51941360,
+          "um_per_px": 1.9769063329269998,
+          "width": 13943,
+          "height": 8430,
+          "sha256": "daa26470d3c085615b6d7dd015f54ea86e73dc18cffda49dee8eddfa2cc61bb8"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/57bc62c7-108e-4c21-9b74-458a9138ff01/0362f84d-58d4-4ae3-83f8-422f916708c5.dcm",
+          "bytes": 4806830,
+          "um_per_px": 7.909327116212001,
+          "width": 3485,
+          "height": 2107,
+          "sha256": "f1a4f4652b80f9f740712817fe36dc60df1102def0ba82f290a64afc458ff686"
+        }
+      }
+    },
+    {
+      "key": "gtex-zyvf-1725",
+      "specimen": "GTEX-ZYVF-1725",
+      "subject": "GTEX-ZYVF",
+      "tissue": "Lung",
+      "snomed": "SCT:39607008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2341355482.1527852298.1720328306650.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2883,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/87ea5651-753c-4d44-8067-21c652382a58/dc4f81a1-e876-48e1-b2c4-bcf6a95a2026.dcm",
+          "bytes": 38798798,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 7886,
+          "sha256": "26436919a6546b84056e2e6a36da159c582dc67e1ebc3b401226564d391d72d4"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/87ea5651-753c-4d44-8067-21c652382a58/45206da4-ae1b-4dd0-a5ac-5b219862a03d.dcm",
+          "bytes": 3627112,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 1971,
+          "sha256": "8a3482a6a79bba8c3ec17291d8e651ffffb1902f446e96dba933c5be31ab9b60"
+        }
+      }
+    },
+    {
+      "key": "gtex-1jmqi-1125",
+      "specimen": "GTEX-1JMQI-1125",
+      "subject": "GTEX-1JMQI",
+      "tissue": "Lung",
+      "snomed": "SCT:39607008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2342538324.2071783873.1720329489492.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2776,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/19a56a4e-9e52-41df-8283-438c9db05b0c/7f629ee9-a346-48eb-b1cb-fc2f75a99563.dcm",
+          "bytes": 35952780,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 6535,
+          "sha256": "29f424fe90dff6537ccfa14e340404f755520d2ae3093640d6c3bf9b83833e80"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/19a56a4e-9e52-41df-8283-438c9db05b0c/5b9db94c-b03c-43e8-9376-ff58a1ac3c63.dcm",
+          "bytes": 3475160,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 1633,
+          "sha256": "e992f1f20dd77aa3dd4cc77980b27a4aa05b74b81db5aee625202af14666a135"
+        }
+      }
+    },
+    {
+      "key": "gtex-131xf-2825",
+      "specimen": "GTEX-131XF-2825",
+      "subject": "GTEX-131XF",
+      "tissue": "Minor salivary gland",
+      "snomed": "SCT:87626005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2507672681.1929254590.1720494623849.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1205,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/75544edc-044a-4097-9a80-2a58186fed58/27dfc4e5-17fe-457a-9ebf-8700ddbb1f50.dcm",
+          "bytes": 15682074,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 7462,
+          "sha256": "bab0b3f2e2d9e7a1420fdd435d93fb552df78ae0e6c6ae2430a5718ed78f5fcf"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/75544edc-044a-4097-9a80-2a58186fed58/97d5a43f-1876-4ef0-bb95-3e742917725f.dcm",
+          "bytes": 1771984,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 1865,
+          "sha256": "7834fa5e1a395212789b02d447e9b54e52865fb7e57dbd0d3fb59a43c121a75a"
+        }
+      }
+    },
+    {
+      "key": "gtex-1b8kz-1725",
+      "specimen": "GTEX-1B8KZ-1725",
+      "subject": "GTEX-1B8KZ",
+      "tissue": "Minor salivary gland",
+      "snomed": "SCT:87626005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2507384804.2021351937.1720494335972.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.0999,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/7850b86a-ddac-4fb2-b025-b6084c588afe/f44ff58f-ddcd-4f85-96d1-c83b83644a55.dcm",
+          "bytes": 9410286,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 5208,
+          "sha256": "01bdecf2591f6bbe48abb78a17b00e372690d5961427fa01be20e89e36f73251"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/7850b86a-ddac-4fb2-b025-b6084c588afe/a90f7d63-b847-4f93-b4d7-018a48b4730c.dcm",
+          "bytes": 1111668,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 1302,
+          "sha256": "20fb222d8ee9ba00865b08634a8d66ff7f2a6461a690c67b35e3f1407d237f58"
+        }
+      }
+    },
+    {
+      "key": "gtex-1f7rk-1225",
+      "specimen": "GTEX-1F7RK-1225",
+      "subject": "GTEX-1F7RK",
+      "tissue": "Omentum",
+      "snomed": "SCT:27398004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2379888199.487409816.1720366839367.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1631,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/bfcff720-c0d0-4fed-923d-08748a623a43/5480da40-5423-4d97-aef9-d7af8a53ceaa.dcm",
+          "bytes": 28399436,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 6596,
+          "sha256": "ed5c5797cf999d7598dcbcaad753b6bbb743a8a3d46b5329903a69db4d057a65"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/bfcff720-c0d0-4fed-923d-08748a623a43/6f084e3c-83f6-4124-b0fb-c106db4ffd33.dcm",
+          "bytes": 3474194,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 1649,
+          "sha256": "88327c60397538e73ec088d3f3dbaf9a01040c3c4c13de73540f4ff1e4c56d11"
+        }
+      }
+    },
+    {
+      "key": "gtex-1jn1m-1425",
+      "specimen": "GTEX-1JN1M-1425",
+      "subject": "GTEX-1JN1M",
+      "tissue": "Omentum",
+      "snomed": "SCT:27398004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2376328861.384072615.1720363280029.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.152,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/e13426a1-dc88-4279-9af4-4aa374a4f4a5/2278c063-0a7f-4fe0-85e8-df7a2b133be4.dcm",
+          "bytes": 22453106,
+          "um_per_px": 1.976924056564,
+          "width": 11951,
+          "height": 6479,
+          "sha256": "a83edecbf26b1dd38d6e634da174fab201ac51e5314ae739d464ebdf63aaddfa"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/e13426a1-dc88-4279-9af4-4aa374a4f4a5/33c3878f-6838-4819-9567-04857b03a338.dcm",
+          "bytes": 2657688,
+          "um_per_px": 7.909681754268001,
+          "width": 2987,
+          "height": 1619,
+          "sha256": "7c21cdaff7907b8756197b95fba6b44d74834cd168be0780e941b615a135b73a"
+        }
+      }
+    },
+    {
+      "key": "gtex-147f4-2125",
+      "specimen": "GTEX-147F4-2125",
+      "subject": "GTEX-147F4",
+      "tissue": "Omentum",
+      "snomed": "SCT:27398004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2381755626.2016684657.1720368706794.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1006,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/aca6e7b2-1ed0-4d0d-9795-56ea2d251e45/ad94a16d-ab59-4163-8f98-7d4dd1544e9e.dcm",
+          "bytes": 37533326,
+          "um_per_px": 1.976896041977,
+          "width": 15437,
+          "height": 10242,
+          "sha256": "d167f1e7733606d8c24b3480f791f2b5bb5cfdcc9c3ce78747b873ba9feabc8d"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/aca6e7b2-1ed0-4d0d-9795-56ea2d251e45/2becb601-47f8-4ab0-ada6-adaf7830c083.dcm",
+          "bytes": 4685922,
+          "um_per_px": 7.908096449857,
+          "width": 3859,
+          "height": 2560,
+          "sha256": "0b34136e5fdd044232704a6923b6abb0725a44653ba54721f88b35f7ae08c51a"
+        }
+      }
+    },
+    {
+      "key": "gtex-xmd2-2725",
+      "specimen": "GTEX-XMD2-2725",
+      "subject": "GTEX-XMD2",
+      "tissue": "Ovary",
+      "snomed": "SCT:15497006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2305779924.666882207.1720292731092.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.4867,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/46be9099-2edb-467a-959a-d86fca6fc40e/daba1604-0bc7-409d-aca8-1eedc08bd247.dcm",
+          "bytes": 41920782,
+          "um_per_px": 1.9769353354629997,
+          "width": 10955,
+          "height": 5555,
+          "sha256": "be0b65d8d45ad3750ab650e32e553c7b627c7824317efe1fd2fa674c40dd3e4e"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/46be9099-2edb-467a-959a-d86fca6fc40e/7f05b2c3-8673-4eb9-b8d6-dfff9791ae5d.dcm",
+          "bytes": 3323992,
+          "um_per_px": 7.909907450694,
+          "width": 2738,
+          "height": 1388,
+          "sha256": "0c6abcf5ede37e6e0f528a3e6ea37f8a685ad3b6666cd38d84465598ac0017ff"
+        }
+      }
+    },
+    {
+      "key": "gtex-17jci-2325",
+      "specimen": "GTEX-17JCI-2325",
+      "subject": "GTEX-17JCI",
+      "tissue": "Ovary",
+      "snomed": "SCT:15497006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2306800810.211803523.1720293751978.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2674,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/212101b5-a537-45cd-ab71-8538f5e3e5b7/2a248b2c-a505-40fa-9ea8-1ad87f741420.dcm",
+          "bytes": 35170402,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 6493,
+          "sha256": "093599bfdad76179171c23d33da37dafd2ed405c773ce5b9af5c1c82e281bfa8"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/212101b5-a537-45cd-ab71-8538f5e3e5b7/330d8eea-ea50-4064-9910-540159367a8d.dcm",
+          "bytes": 2794582,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 1623,
+          "sha256": "164188b7c066775d16d838b49eb7e51ff65dd2cef0a77c43d44f61300e062218"
+        }
+      }
+    },
+    {
+      "key": "gtex-1mcyp-1425",
+      "specimen": "GTEX-1MCYP-1425",
+      "subject": "GTEX-1MCYP",
+      "tissue": "Ovary",
+      "snomed": "SCT:15497006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2305277381.845739457.1720292228549.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.253,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/792b17ee-b57a-434c-a06f-66b959645439/9abf1666-7ad3-435b-b9fb-36ca8b6af2c6.dcm",
+          "bytes": 85082596,
+          "um_per_px": 1.9768783490990003,
+          "width": 18923,
+          "height": 10903,
+          "sha256": "649177e5a2d567b93062912234d45773e7918496e0dbc365669085a6e789bc81"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/792b17ee-b57a-434c-a06f-66b959645439/e9ec14fd-8a17-4e8b-a1f7-ebba167dd0d3.dcm",
+          "bytes": 6648502,
+          "um_per_px": 7.908767230443999,
+          "width": 4730,
+          "height": 2725,
+          "sha256": "09ecb821d0945c97952e83d3bc0db1f0509e106f605e6683c86960b1eed92fb1"
+        }
+      }
+    },
+    {
+      "key": "gtex-15shu-2125",
+      "specimen": "GTEX-15SHU-2125",
+      "subject": "GTEX-15SHU",
+      "tissue": "Pancreas",
+      "snomed": "SCT:15776009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2089653927.21497869.1720076605095.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2995,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/069ea62e-5739-45d8-aca7-16def3288082/be8513b5-8852-4278-ac8b-b05b9a070953.dcm",
+          "bytes": 39554182,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 6951,
+          "sha256": "eecce4c119b0d4500e995b7bd931a58b54ab70684afbb4d58f86e6742704d355"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/069ea62e-5739-45d8-aca7-16def3288082/069ec9d4-1595-4d3c-b28d-7c3aaa56fc21.dcm",
+          "bytes": 3468246,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 1737,
+          "sha256": "091a95b4f34d1104acd961255f8624f1cadc99bc1186ff86a3a132598e1bae33"
+        }
+      }
+    },
+    {
+      "key": "gtex-16xzz-2025",
+      "specimen": "GTEX-16XZZ-2025",
+      "subject": "GTEX-16XZZ",
+      "tissue": "Pancreas",
+      "snomed": "SCT:15776009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2087334329.2067541868.1720074285497.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2919,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a26df3e2-3df5-4b79-84e8-ce3c947daaf5/da78d900-6970-4142-99d4-d358ef8f7083.dcm",
+          "bytes": 41995518,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 7174,
+          "sha256": "344531922b039f1815ad728f3959f2e32f7bbeb5c25a45d9432a7d345d020298"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a26df3e2-3df5-4b79-84e8-ce3c947daaf5/404367e5-ef5b-4ada-869e-61143251c266.dcm",
+          "bytes": 3884722,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 1793,
+          "sha256": "7bdb968c1bbe5a872428e7f2fba8f996b302caa49ba9057678582dceaf7c329d"
+        }
+      }
+    },
+    {
+      "key": "gtex-zyw4-2125",
+      "specimen": "GTEX-ZYW4-2125",
+      "subject": "GTEX-ZYW4",
+      "tissue": "Pancreas",
+      "snomed": "SCT:15776009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2091454066.218497646.1720078405234.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2883,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1bb1bdf2-7314-401b-96cf-db75138c8d55/6bfb7be3-f7c6-47d4-8cfc-b23181e57432.dcm",
+          "bytes": 47176356,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 7547,
+          "sha256": "338cf159990cd2e4e69a510ddeec772a8ea1261ab432ff1092311048249213ae"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1bb1bdf2-7314-401b-96cf-db75138c8d55/21860af6-5fce-4628-af36-e52e2f2b0bff.dcm",
+          "bytes": 4192000,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 1886,
+          "sha256": "53f2aad8cdcca75158c704c1e4106605049be246d8dd732b5e45241eabc47736"
+        }
+      }
+    },
+    {
+      "key": "gtex-14bim-3225",
+      "specimen": "GTEX-14BIM-3225",
+      "subject": "GTEX-14BIM",
+      "tissue": "Pituitary",
+      "snomed": "SCT:56329008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2076398306.1175491945.1720063349474.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.4576,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/b027db06-5dea-4964-9a3a-136d046bd319/e8d9118e-892d-4f3c-a88f-2697983a399d.dcm",
+          "bytes": 28681580,
+          "um_per_px": 1.9770290437200002,
+          "width": 6473,
+          "height": 6221,
+          "sha256": "edd1709f3bee5229a53f8c7213b35c33334bd54582acb40edcab7731673cbe23"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/b027db06-5dea-4964-9a3a-136d046bd319/75080f9f-6225-473a-9edc-60c2196c4952.dcm",
+          "bytes": 2559318,
+          "um_per_px": 7.909338071693001,
+          "width": 1618,
+          "height": 1555,
+          "sha256": "bb053969013117622fcc7ef931827598cdc71ed71e0a7d5006a8be8bf04fe2fa"
+        }
+      }
+    },
+    {
+      "key": "gtex-zyfd-3125",
+      "specimen": "GTEX-ZYFD-3125",
+      "subject": "GTEX-ZYFD",
+      "tissue": "Pituitary",
+      "snomed": "SCT:56329008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2074448166.166242326.1720061399334.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2709,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/80b18e7b-536a-4c79-9240-2bd1369c7ceb/f96e0025-0619-47da-87a9-7ddd1bb15025.dcm",
+          "bytes": 22436194,
+          "um_per_px": 1.9769860926320002,
+          "width": 7967,
+          "height": 6690,
+          "sha256": "26db8092946c89c070b8a9c00a3fb902ae803682e42324a4c0dcf0a5e5a71f63"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/80b18e7b-536a-4c79-9240-2bd1369c7ceb/1f2279a1-2858-4890-a06e-6df78ca0687d.dcm",
+          "bytes": 2149772,
+          "um_per_px": 7.910923254646001,
+          "width": 1991,
+          "height": 1672,
+          "sha256": "20c7eb17ca50219c82ccef2129c02e7d3ef7636f55f061f63f0a5642b9d2cefa"
+        }
+      }
+    },
+    {
+      "key": "gtex-1477z-2225",
+      "specimen": "GTEX-1477Z-2225",
+      "subject": "GTEX-1477Z",
+      "tissue": "Prostate",
+      "snomed": "SCT:41216001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2312694790.302372225.1720299645958.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3868,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9f7e1cf7-6001-4b30-a611-0c2726bc50ad/2cbba62a-34e1-4c2a-8913-655198c8cd99.dcm",
+          "bytes": 64699838,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 8706,
+          "sha256": "9c2eb1762762a4ef9c3de7081066c182896a8765f78ac1701a79a1fe01c103a0"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9f7e1cf7-6001-4b30-a611-0c2726bc50ad/1cd969ad-79ce-492f-bf84-75c9a759b4d4.dcm",
+          "bytes": 5131896,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 2176,
+          "sha256": "af3064ffe0de7a1d074b6af3864f98d1d3ffb9619b0654832e2e9701d185e912"
+        }
+      }
+    },
+    {
+      "key": "gtex-1n5o9-0625",
+      "specimen": "GTEX-1N5O9-0625",
+      "subject": "GTEX-1N5O9",
+      "tissue": "Prostate",
+      "snomed": "SCT:41216001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2317890391.1112275359.1720304841559.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2931,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/dc8527ec-cad0-4250-b326-ef28d08f8290/1bbc49db-39a2-4b87-9e28-8414792cd6a4.dcm",
+          "bytes": 41812598,
+          "um_per_px": 1.976924056564,
+          "width": 11951,
+          "height": 8154,
+          "sha256": "42c6260224a347e2f608d36e7b010706483dbafc5423afa53d097d2d02727edb"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/dc8527ec-cad0-4250-b326-ef28d08f8290/96426d2a-ac0e-4cb4-a145-4b918021d386.dcm",
+          "bytes": 3480150,
+          "um_per_px": 7.909681754268001,
+          "width": 2987,
+          "height": 2038,
+          "sha256": "1ba41451e1fe6747d51ca1c0af9fd1df6b0ec0f0d3df71b3298bdb62bc409fa1"
+        }
+      }
+    },
+    {
+      "key": "gtex-yec3-2225",
+      "specimen": "GTEX-YEC3-2225",
+      "subject": "GTEX-YEC3",
+      "tissue": "Prostate",
+      "snomed": "SCT:41216001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2309208348.410270392.1720296159516.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2921,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/f9d511ac-85ff-4500-a328-73d189842dfc/6b52ad0e-07b2-4d4b-9e04-47c344843670.dcm",
+          "bytes": 47879508,
+          "um_per_px": 1.9769417806249998,
+          "width": 10457,
+          "height": 10707,
+          "sha256": "ea08078f57717491ad600af6f34784497ae161b3457e4f8bd4a07c0cf5615a58"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/f9d511ac-85ff-4500-a328-73d189842dfc/0694147d-b6ae-41ba-a51a-cfb17b36cfa3.dcm",
+          "bytes": 4222286,
+          "um_per_px": 7.908523412395001,
+          "width": 2614,
+          "height": 2676,
+          "sha256": "802274b522a9c7f3301c308a2cec9e4ea6080e2c8d95cd6ce851cf7d908b2a79"
+        }
+      }
+    },
+    {
+      "key": "gtex-11o72-1725",
+      "specimen": "GTEX-11O72-1725",
+      "subject": "GTEX-11O72",
+      "tissue": "Renal cortex",
+      "snomed": "SCT:50403003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2033719990.2132280224.1720020671158.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2556,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0415d614-e3ee-409e-b17e-e41f6714b912/0bd9888d-9b79-46fb-a0bf-b0ccb92c976a.dcm",
+          "bytes": 53723624,
+          "um_per_px": 1.9769102714759998,
+          "width": 13445,
+          "height": 10068,
+          "sha256": "f0b7fd91fdf94ab1582521079f9bf1c03006198428a78cac5841adc0adca4e81"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0415d614-e3ee-409e-b17e-e41f6714b912/c298173c-6775-419c-9e73-f75121d09352.dcm",
+          "bytes": 4600020,
+          "um_per_px": 7.908229277000999,
+          "width": 3361,
+          "height": 2517,
+          "sha256": "a9584d46c6374da6c24ed6f926459588c7c0862f9efe3a597b963ae76ab8f735"
+        }
+      }
+    },
+    {
+      "key": "gtex-rwsa-1825",
+      "specimen": "GTEX-RWSA-1825",
+      "subject": "GTEX-RWSA",
+      "tissue": "Renal cortex",
+      "snomed": "SCT:50403003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2034613998.347986673.1720021565166.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2475,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/49532786-8ec7-456e-890e-ca8d4031773b/0798b865-8784-47ae-b965-f6a62ae73e8a.dcm",
+          "bytes": 42959354,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 9329,
+          "sha256": "87b30a5f3a0154e826ca55b2d1e72880a980510983205129fa96f550eb6383eb"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/49532786-8ec7-456e-890e-ca8d4031773b/52363507-52f1-4be9-b151-2ae4ddcf7c18.dcm",
+          "bytes": 4067594,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 2332,
+          "sha256": "c3050dca39367402193bf7356ac92ad5edbebdbbeb846e532289bcff0aafc650"
+        }
+      }
+    },
+    {
+      "key": "gtex-1445s-2125",
+      "specimen": "GTEX-1445S-2125",
+      "subject": "GTEX-1445S",
+      "tissue": "Renal cortex",
+      "snomed": "SCT:50403003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2029890273.793891610.1720016841441.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2169,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/772a00c7-7789-47ff-9d7e-b267fea1e29f/add7ea73-c533-4ee3-a8af-2ef68628188c.dcm",
+          "bytes": 45139438,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 10195,
+          "sha256": "175ca38f6024e2dc781bc134e0e99ec3e6e53529da558788c2bfcbc0566e07fd"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/772a00c7-7789-47ff-9d7e-b267fea1e29f/8d21a33d-d1c4-4896-b695-514e4828f94f.dcm",
+          "bytes": 4020868,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 2548,
+          "sha256": "ea3ba37db6db1ee9d4ae8a2980598451c043cca7dcb79cb62167574107cca17c"
+        }
+      }
+    },
+    {
+      "key": "gtex-s7se-2025",
+      "specimen": "GTEX-S7SE-2025",
+      "subject": "GTEX-S7SE",
+      "tissue": "Renal medulla",
+      "snomed": "SCT:30737000",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2471763925.1093184217.1720458715093.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.4375,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/4ec1e70a-4e74-461b-8eac-1c05e9e24454/2a9e9377-39b4-42c2-b0ec-165acd42b93a.dcm",
+          "bytes": 46407460,
+          "um_per_px": 1.9769417806249998,
+          "width": 10457,
+          "height": 7169,
+          "sha256": "c8cdd08c83313a67fbd7386d9ade3e97fa8464b6d66dee060581d6a697b8344d"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/4ec1e70a-4e74-461b-8eac-1c05e9e24454/11d9f1c9-3626-4789-aab7-728750cb020d.dcm",
+          "bytes": 4231084,
+          "um_per_px": 7.908523412395001,
+          "width": 2614,
+          "height": 1792,
+          "sha256": "7d3da09277c1bd8f79b461da35b8a46a3817c5aa22c3bf377123153ad58c6d8f"
+        }
+      }
+    },
+    {
+      "key": "gtex-t5jc-1625",
+      "specimen": "GTEX-T5JC-1625",
+      "subject": "GTEX-T5JC",
+      "tissue": "Renal medulla",
+      "snomed": "SCT:30737000",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2471685917.1755222495.1720458637085.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.383,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8e0791af-d93c-4137-8430-01a8d4452054/6a4948cf-2549-484b-8e27-7cd2dcbfc9ce.dcm",
+          "bytes": 38405296,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 6737,
+          "sha256": "c1ee1c9a383d3a7055df03f5891da4266db2f74e00da08baa760a873a18b6a66"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8e0791af-d93c-4137-8430-01a8d4452054/f470ac65-82cf-4fc5-9cd2-894bacf6466b.dcm",
+          "bytes": 3553956,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 1684,
+          "sha256": "bb965a13671f61599fa8c5320b495307b93ef26c84e7e049cb649f3d77a354a9"
+        }
+      }
+    },
+    {
+      "key": "gtex-pvow-1925",
+      "specimen": "GTEX-PVOW-1925",
+      "subject": "GTEX-PVOW",
+      "tissue": "Renal medulla",
+      "snomed": "SCT:30737000",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2471421771.601333413.1720458372939.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3433,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/4f75b0d0-955d-40f2-9217-673b4b1ecf3c/35c6ea41-0027-404b-9db6-66b1b0041ec7.dcm",
+          "bytes": 37720710,
+          "um_per_px": 1.9769353354629997,
+          "width": 10955,
+          "height": 7043,
+          "sha256": "69e9f604ca358299abd15fe0616d0bf80363d5bf6c7d96c4885897680dec82d0"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/4f75b0d0-955d-40f2-9217-673b4b1ecf3c/02839e77-f11d-4c20-9707-445363dd87d2.dcm",
+          "bytes": 3402634,
+          "um_per_px": 7.909907450694,
+          "width": 2738,
+          "height": 1760,
+          "sha256": "fa1cf5e11602429f199396687d029d43e76b1d7769aa0f3e4a60f868bd16bf73"
+        }
+      }
+    },
+    {
+      "key": "gtex-zpcl-1625",
+      "specimen": "GTEX-ZPCL-1625",
+      "subject": "GTEX-ZPCL",
+      "tissue": "Sigmoid colon",
+      "snomed": "SCT:60184004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2104491155.2073384110.1720091442323.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2214,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0424514e-8bdb-4368-8b31-ba3b2221cf3a/09100137-7cc6-407d-bae8-eeffe5806f6c.dcm",
+          "bytes": 70111684,
+          "um_per_px": 1.9768783490990003,
+          "width": 18923,
+          "height": 11171,
+          "sha256": "a28c689bde870cbe99d02a98692577eaf8fc674175c9dbd3559d6aeb2765207a"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0424514e-8bdb-4368-8b31-ba3b2221cf3a/b5396fa2-6ae2-4e04-8dae-90748a7fe08a.dcm",
+          "bytes": 5819770,
+          "um_per_px": 7.908767230443999,
+          "width": 4730,
+          "height": 2792,
+          "sha256": "50b299ee694704a1ab366b1360a53f34ef17c320c4cae14e13a8fa2f52557cb3"
+        }
+      }
+    },
+    {
+      "key": "gtex-15eo6-2325",
+      "specimen": "GTEX-15EO6-2325",
+      "subject": "GTEX-15EO6",
+      "tissue": "Sigmoid colon",
+      "snomed": "SCT:60184004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2114499950.485883350.1720101451118.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2013,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9e241908-56f2-43a0-b917-f04affc33cba/3546fc64-6860-4ad0-8de6-9850ede8a90a.dcm",
+          "bytes": 34990814,
+          "um_per_px": 1.976924056564,
+          "width": 11951,
+          "height": 9354,
+          "sha256": "0649c79671fb4bb85e02aba360054cd9bfe0cba9b3e2bb38f69e240a52c8d2ee"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9e241908-56f2-43a0-b917-f04affc33cba/675025b8-98b3-4488-b551-55d0049a6321.dcm",
+          "bytes": 2903708,
+          "um_per_px": 7.909681754268001,
+          "width": 2987,
+          "height": 2338,
+          "sha256": "c2bb2d6ceae15d077c1cb401f75302b7f0b37afbfb917e85ec7f8c155f4a1628"
+        }
+      }
+    },
+    {
+      "key": "gtex-13nz8-2825",
+      "specimen": "GTEX-13NZ8-2825",
+      "subject": "GTEX-13NZ8",
+      "tissue": "Sigmoid colon",
+      "snomed": "SCT:60184004",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2109705359.295313283.1720096656527.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1505,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/b87747c0-2cb2-4bc6-a073-5c80a9aa02ff/62575de7-2115-4e29-a2ed-b9d4c4e7b32d.dcm",
+          "bytes": 33694580,
+          "um_per_px": 1.9769102714759998,
+          "width": 13445,
+          "height": 10192,
+          "sha256": "f2a4f7106da8f9ac6e547e7d8323c543a4e419e4a6274114339b7f452e243741"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/b87747c0-2cb2-4bc6-a073-5c80a9aa02ff/f035ae6e-4a3c-45db-a9cb-6b2e9fd38bc4.dcm",
+          "bytes": 3096596,
+          "um_per_px": 7.908229277000999,
+          "width": 3361,
+          "height": 2548,
+          "sha256": "7933381a3c5a4b731db905ceff8081220a29edec058270c72ea51718f5eccc47"
+        }
+      }
+    },
+    {
+      "key": "gtex-13czv-0325",
+      "specimen": "GTEX-13CZV-0325",
+      "subject": "GTEX-13CZV",
+      "tissue": "Skeletal muscle",
+      "snomed": "SCT:127954009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2276786592.366961521.1720263737760.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3055,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/4461a2b8-cb80-4c06-a284-7ba4e5d015fa/d261dffb-72e0-44f9-9b30-0f70eec79655.dcm",
+          "bytes": 39192262,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 9950,
+          "sha256": "466ded88a69f2a5beccd566f2c80836ec4e6b5f4fdf72edab44feb7d6a3b6775"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/4461a2b8-cb80-4c06-a284-7ba4e5d015fa/18498ada-af72-477f-8e9b-9c655ffb23c2.dcm",
+          "bytes": 4644722,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 2487,
+          "sha256": "5c4fb92cd7368fdada47c0dc1d73dc06e178465989855f7faf494479b764f9f3"
+        }
+      }
+    },
+    {
+      "key": "gtex-se5c-1825",
+      "specimen": "GTEX-SE5C-1825",
+      "subject": "GTEX-SE5C",
+      "tissue": "Skeletal muscle",
+      "snomed": "SCT:127954009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2271592915.4535916.1720258544083.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3048,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/550785ce-54a6-4da6-baca-c08909bccb3e/8907c46a-0b24-4d31-8ee5-01bb08c48a5f.dcm",
+          "bytes": 27273310,
+          "um_per_px": 1.9769417806249998,
+          "width": 10457,
+          "height": 8223,
+          "sha256": "0f9d4935a55c2aff008de8f49fe0c4e0a4cdfeb7e6bdff43a041f62f44bd27ea"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/550785ce-54a6-4da6-baca-c08909bccb3e/18891719-fe6c-4d13-a52a-ffd8302f9b43.dcm",
+          "bytes": 3452278,
+          "um_per_px": 7.908523412395001,
+          "width": 2614,
+          "height": 2055,
+          "sha256": "067a14d95128d30e12e73fb923a47050269d88f94ff78c3548a1242c753ebec2"
+        }
+      }
+    },
+    {
+      "key": "gtex-yj89-0525",
+      "specimen": "GTEX-YJ89-0525",
+      "subject": "GTEX-YJ89",
+      "tissue": "Skeletal muscle",
+      "snomed": "SCT:127954009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2264242838.1758911637.1720251194006.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2461,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9aa6b6da-8d97-4b74-808e-7f7f97e0d896/d2d47413-c72b-494c-9dd7-658d2c2f35eb.dcm",
+          "bytes": 33926864,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 7898,
+          "sha256": "61f21166091817aa748635d060eee2875e5f45e59d6d83f236b801ff18a266f0"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9aa6b6da-8d97-4b74-808e-7f7f97e0d896/b680ab50-c570-4973-96c7-53495a687cdf.dcm",
+          "bytes": 3556680,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 1974,
+          "sha256": "97549494880826465a1cd97d95efe1966e877c1a3a00198e38764caf63b4886c"
+        }
+      }
+    },
+    {
+      "key": "gtex-12126-0325",
+      "specimen": "GTEX-12126-0325",
+      "subject": "GTEX-12126",
+      "tissue": "Skin of lower leg",
+      "snomed": "SCT:75144006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2050633572.251697886.1720037584740.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2989,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/6775ac6c-5883-4794-b17c-0ee5d9f5d846/e2b4331f-9820-4cdd-97c4-86c416b1703b.dcm",
+          "bytes": 58188308,
+          "um_per_px": 1.976890220897,
+          "width": 16433,
+          "height": 11455,
+          "sha256": "56693bf72e2232ac807f51b29fd3b2a1ac8d240ea86d436597681a46ee42688d"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/6775ac6c-5883-4794-b17c-0ee5d9f5d846/45d3515e-669e-43a2-81af-f9d8cdae1ecd.dcm",
+          "bytes": 6089052,
+          "um_per_px": 7.9080421129500005,
+          "width": 4108,
+          "height": 2863,
+          "sha256": "a53a95c8330ab6212474b00e22aa1417a6d4c9536ed376ed2dc41fa28921e981"
+        }
+      }
+    },
+    {
+      "key": "gtex-qv44-1925",
+      "specimen": "GTEX-QV44-1925",
+      "subject": "GTEX-QV44",
+      "tissue": "Skin of lower leg",
+      "snomed": "SCT:75144006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2043702029.922138951.1720030653197.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2254,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/11eb5b43-4183-43a5-b043-c40bdab347bd/d7718f60-a32c-4af1-a9ca-6c8333ba6ee1.dcm",
+          "bytes": 42520962,
+          "um_per_px": 1.97690266602,
+          "width": 14441,
+          "height": 9649,
+          "sha256": "e2040d64804b3f90fc12e1fc78a96f42da1cd8ed04279365cd2936643f6a422d"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/11eb5b43-4183-43a5-b043-c40bdab347bd/348470fa-1e8c-401d-91fe-0a3f283dbf70.dcm",
+          "bytes": 4411164,
+          "um_per_px": 7.908158282548001,
+          "width": 3610,
+          "height": 2412,
+          "sha256": "c15e451e10b9b6d0a4f3b0fba6403671979ed2b21232a039a0ee29e4d6ca323c"
+        }
+      }
+    },
+    {
+      "key": "gtex-y5lm-1925",
+      "specimen": "GTEX-Y5LM-1925",
+      "subject": "GTEX-Y5LM",
+      "tissue": "Skin of lower leg",
+      "snomed": "SCT:75144006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2055980358.1094238375.1720042931526.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1919,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/ccd47839-71cf-46a6-ad43-1bf05a61c3ae/f9bf7e01-412c-4dfb-98f5-e796ddfdd430.dcm",
+          "bytes": 56283030,
+          "um_per_px": 1.976887567184,
+          "width": 16931,
+          "height": 10810,
+          "sha256": "19e9c65d29fe7802470ec9704cad099cd4cfce984fde1569b5b5a83f82e2616c"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/ccd47839-71cf-46a6-ad43-1bf05a61c3ae/196bc44d-5959-4931-b421-b0e7b72bece7.dcm",
+          "bytes": 5184436,
+          "um_per_px": 7.908951654064,
+          "width": 4232,
+          "height": 2702,
+          "sha256": "f8c54be1f96d9520c3882ea3d107bb5a8598dcb681cc1406fa161d741728dfaf"
+        }
+      }
+    },
+    {
+      "key": "gtex-wey5-2325",
+      "specimen": "GTEX-WEY5-2325",
+      "subject": "GTEX-WEY5",
+      "tissue": "Skin of suprapubic region",
+      "snomed": "SCT:367578008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2484613519.505769706.1720471564687.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2563,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/aa6374fc-e957-463a-a7fc-7300d62bb15c/68d452e9-f53c-481a-a347-38b74a26a1cf.dcm",
+          "bytes": 39204016,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 9966,
+          "sha256": "bbb213be8f80ba46cb216ee777e9cc4662820cc0dbc97dc5cbf18bc5582acaee"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/aa6374fc-e957-463a-a7fc-7300d62bb15c/f748a832-d9a4-4b52-ab90-e8b6ef21fa7d.dcm",
+          "bytes": 4168720,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 2491,
+          "sha256": "2118a6a22a8755cbac93ba06eee1e699e8b1ce435925af4feeb41c0479fea763"
+        }
+      }
+    },
+    {
+      "key": "gtex-13113-1625",
+      "specimen": "GTEX-13113-1625",
+      "subject": "GTEX-13113",
+      "tissue": "Skin of suprapubic region",
+      "snomed": "SCT:367578008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2479770353.2137417181.1720466721521.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2131,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/490085da-2d75-4157-a0cb-4e7e8f461428/f7210040-263b-4a67-8e91-541250abab23.dcm",
+          "bytes": 45617092,
+          "um_per_px": 1.9769102714759998,
+          "width": 13445,
+          "height": 10770,
+          "sha256": "a18d5cff5dc5804cc220a5406228309c7e3df3ce2dd386568034501eff18db61"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/490085da-2d75-4157-a0cb-4e7e8f461428/bbbf0fde-683c-4d05-8b97-3a04cd5f5de0.dcm",
+          "bytes": 4543554,
+          "um_per_px": 7.908229277000999,
+          "width": 3361,
+          "height": 2692,
+          "sha256": "20fdb335af8343089ca2f0cfb8dad39bb43958483686ddd7273c35fa23639d9b"
+        }
+      }
+    },
+    {
+      "key": "gtex-13fty-2125",
+      "specimen": "GTEX-13FTY-2125",
+      "subject": "GTEX-13FTY",
+      "tissue": "Skin of suprapubic region",
+      "snomed": "SCT:367578008",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2472611527.619494312.1720459562695.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1968,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/86f50e74-a0e0-470d-8dfe-731fe265061d/4e4b3837-48c7-480f-b7f0-d78742f37b03.dcm",
+          "bytes": 40730854,
+          "um_per_px": 1.976899243591,
+          "width": 14939,
+          "height": 10432,
+          "sha256": "75c909a2a098800cdaf940cdf0ef2a7385204d479ee17d47faf3071da8399a45"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/86f50e74-a0e0-470d-8dfe-731fe265061d/2c9a6b44-1c12-4db0-86ab-d790957ba9ab.dcm",
+          "bytes": 3938184,
+          "um_per_px": 7.909185270487,
+          "width": 3734,
+          "height": 2608,
+          "sha256": "794674201038a8422a2fc0ee157717baa7a99802577e1d6623f74dd509ce90ab"
+        }
+      }
+    },
+    {
+      "key": "gtex-oizf-0925",
+      "specimen": "GTEX-OIZF-0925",
+      "subject": "GTEX-OIZF",
+      "tissue": "Spleen",
+      "snomed": "SCT:78961009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.1984410653.84832088.1719971361821.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.4104,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/7cf8a094-eb64-4fb4-8c3a-2e6101e57c57/7c9759f8-8b8e-44ca-9566-aee8043aac84.dcm",
+          "bytes": 46211740,
+          "um_per_px": 1.9769567064790001,
+          "width": 9461,
+          "height": 7796,
+          "sha256": "fb275bbf4943781f91632a4010a9952771cba1bbdd237181364881712c9e5ec5"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/7cf8a094-eb64-4fb4-8c3a-2e6101e57c57/c8b87ad4-cab1-4e6d-bd87-3c25888e0233.dcm",
+          "bytes": 3680598,
+          "um_per_px": 7.908662748414,
+          "width": 2365,
+          "height": 1949,
+          "sha256": "90a75ed5f173686535b45d18f10aca2911e992fac6ea4a0bd3819aa32dff7f11"
+        }
+      }
+    },
+    {
+      "key": "gtex-xyks-0125",
+      "specimen": "GTEX-XYKS-0125",
+      "subject": "GTEX-XYKS",
+      "tissue": "Spleen",
+      "snomed": "SCT:78961009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.1978474402.1815329283.1719965425570.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3306,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a026c36e-064f-41cb-987d-8262c45cfa2c/c114d4b4-4e75-4cbb-965b-787b392fe4d0.dcm",
+          "bytes": 52497054,
+          "um_per_px": 1.976896041977,
+          "width": 15437,
+          "height": 6871,
+          "sha256": "7c25ef3c1c02370be16bc52121af0abd02442b21009dca8bf27fd295490d367b"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a026c36e-064f-41cb-987d-8262c45cfa2c/f96082d8-8683-4627-9f22-a8556d61a7a6.dcm",
+          "bytes": 4367986,
+          "um_per_px": 7.908096449857,
+          "width": 3859,
+          "height": 1717,
+          "sha256": "4d91d9c9d8701c7890d0bd8fdf9ba6db718ab2c38ed56f02186e641f696ae5d1"
+        }
+      }
+    },
+    {
+      "key": "gtex-1ojc4-1825",
+      "specimen": "GTEX-1OJC4-1825",
+      "subject": "GTEX-1OJC4",
+      "tissue": "Spleen",
+      "snomed": "SCT:78961009",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.1975525495.956826522.1719962476663.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3289,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/d6eef490-31aa-452b-b14b-d52c23a002c7/983b7414-8715-4f6b-8f8f-4268caa52be5.dcm",
+          "bytes": 54010400,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 8147,
+          "sha256": "5accfc1cbbed39df888220748c427f4e9bb15bbb4084bec553ff6ac62d1f8f40"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/d6eef490-31aa-452b-b14b-d52c23a002c7/ef782fc3-3aff-4744-9077-095883667d48.dcm",
+          "bytes": 4289450,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 2036,
+          "sha256": "62d1d98c3e013571221d44e00b2b30d319132b86e50f25addde72a5c5188bd65"
+        }
+      }
+    },
+    {
+      "key": "gtex-1399s-1625",
+      "specimen": "GTEX-1399S-1625",
+      "subject": "GTEX-1399S",
+      "tissue": "Stomach",
+      "snomed": "SCT:69695003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2124049274.584071813.1720111000442.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2532,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1a3590a8-a7ea-42da-9b13-eec127db302c/c48f9719-7957-4e0f-b902-e4f2dc7b36b3.dcm",
+          "bytes": 63165536,
+          "um_per_px": 1.976887567184,
+          "width": 16931,
+          "height": 10398,
+          "sha256": "0efa6f201bae8a92adde6eb69e218a7ec8162a2e708c90af4e27d2efe9ffa9b5"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1a3590a8-a7ea-42da-9b13-eec127db302c/755faa7d-33d1-4782-b998-91b96842a88f.dcm",
+          "bytes": 5746106,
+          "um_per_px": 7.908951654064,
+          "width": 4232,
+          "height": 2599,
+          "sha256": "04e76bf2e642b526d6bcabb44a0c08f52293eef3d5b56e801db86438a3ed26d4"
+        }
+      }
+    },
+    {
+      "key": "gtex-14daq-2825",
+      "specimen": "GTEX-14DAQ-2825",
+      "subject": "GTEX-14DAQ",
+      "tissue": "Stomach",
+      "snomed": "SCT:69695003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2131194075.1447995329.1720118145243.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2522,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/5e6fe761-136c-456e-9ee3-79b5b8afa640/f7319f64-dcb4-4864-978d-02d028ece2bc.dcm",
+          "bytes": 59090312,
+          "um_per_px": 1.9769063329269998,
+          "width": 13943,
+          "height": 10810,
+          "sha256": "15f0f93084cd7ef926e7436ac800ca821f01319b612d54390db70edaca18c86d"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/5e6fe761-136c-456e-9ee3-79b5b8afa640/456d7140-7c9e-4c35-addb-69e4c453c570.dcm",
+          "bytes": 4938560,
+          "um_per_px": 7.909327116212001,
+          "width": 3485,
+          "height": 2702,
+          "sha256": "51055fcb9972926dcfadbf58a257c0161b2564020fa92a8a120a8fa36fa98ea1"
+        }
+      }
+    },
+    {
+      "key": "gtex-1c2ji-1425",
+      "specimen": "GTEX-1C2JI-1425",
+      "subject": "GTEX-1C2JI",
+      "tissue": "Stomach",
+      "snomed": "SCT:69695003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2139442310.1843863086.1720126393478.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2233,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c8c3c436-753b-4d6a-bdec-827194db67f8/d88f4d6d-e551-4ed5-8896-a90663a2c5ee.dcm",
+          "bytes": 35576238,
+          "um_per_px": 1.976924056564,
+          "width": 11951,
+          "height": 8816,
+          "sha256": "d27e6774ce6594ff0ff0e4acf255845fd53a8b88bb73e4f073503d86c08549ae"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c8c3c436-753b-4d6a-bdec-827194db67f8/900e1047-f766-42ad-9557-333a4808118a.dcm",
+          "bytes": 3456278,
+          "um_per_px": 7.909681754268001,
+          "width": 2987,
+          "height": 2204,
+          "sha256": "e8f60d0c0d2aea400bd9a83b88908e1f03f92bd78262d44bb8988fb287488893"
+        }
+      }
+    },
+    {
+      "key": "gtex-1jmlx-0725",
+      "specimen": "GTEX-1JMLX-0725",
+      "subject": "GTEX-1JMLX",
+      "tissue": "Testis",
+      "snomed": "SCT:40689003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2018365541.162462917.1720005316709.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3201,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/13e0485d-84ef-477c-b0e3-c2d0cb4d5212/741a4b0a-3c87-448b-b52d-62e633f3127b.dcm",
+          "bytes": 58551442,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 9494,
+          "sha256": "9960071182e9f31a6916f34dfcbbd88e95dc5aedafefd5668df194a61594a885"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/13e0485d-84ef-477c-b0e3-c2d0cb4d5212/205599e7-2529-4377-9daa-3a0bb2fed322.dcm",
+          "bytes": 5144392,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 2373,
+          "sha256": "4e4b0f52337e433e1662061c18218120ab5c6fab3bb04649f8f4edb348b79c5a"
+        }
+      }
+    },
+    {
+      "key": "gtex-11zu8-0225",
+      "specimen": "GTEX-11ZU8-0225",
+      "subject": "GTEX-11ZU8",
+      "tissue": "Testis",
+      "snomed": "SCT:40689003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2014706770.1702550891.1720001657938.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2608,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/bb1e8028-756d-4f18-a657-ce93d3eebb48/45d3ca2a-3eeb-41d8-80fd-5ed20189a145.dcm",
+          "bytes": 30781918,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 8847,
+          "sha256": "f672244e134be760cebb938b1721b5dd49f879e497460a8f8440f68d8bbe58ec"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/bb1e8028-756d-4f18-a657-ce93d3eebb48/06bd1c83-6935-4320-b89f-7909646b04e1.dcm",
+          "bytes": 2967862,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 2211,
+          "sha256": "c51431318c8759f27df9cff880ae83719975409207d91aba42360b68f2dd117e"
+        }
+      }
+    },
+    {
+      "key": "gtex-1f75i-2325",
+      "specimen": "GTEX-1F75I-2325",
+      "subject": "GTEX-1F75I",
+      "tissue": "Testis",
+      "snomed": "SCT:40689003",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2020629152.922685826.1720007580320.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2443,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/5bc75e8b-85b4-4157-b65b-2d2fa5f2b61d/b263bc2d-b370-4bc6-978e-d6587e0ade0f.dcm",
+          "bytes": 26015320,
+          "um_per_px": 1.9769488703690001,
+          "width": 9959,
+          "height": 6675,
+          "sha256": "83af5df7a348e012aee0c40ac94974875e7cf1ebcc506491f7cfffab9ef23d33"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/5bc75e8b-85b4-4157-b65b-2d2fa5f2b61d/9f2f6ab0-bcc7-4334-a1b4-4db614a72d82.dcm",
+          "bytes": 2545544,
+          "um_per_px": 7.91017830454,
+          "width": 2489,
+          "height": 1668,
+          "sha256": "a9d1ed02eec7aa70b0293d8c100d716d1e9be0defeb008c18ebf1e4044edfd02"
+        }
+      }
+    },
+    {
+      "key": "gtex-zf28-0825",
+      "specimen": "GTEX-ZF28-0825",
+      "subject": "GTEX-ZF28",
+      "tissue": "Thyroid",
+      "snomed": "SCT:69748006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2203258804.1690900622.1720190209972.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2854,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/6e989d8a-9728-4d9c-8314-d924d3025375/26620d87-eb8b-4a9c-8b24-0100b52650db.dcm",
+          "bytes": 41250534,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 9460,
+          "sha256": "51805c8f54da8975bfcf98e294c4bcffc9177528fee94eff009867d62f3d319c"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/6e989d8a-9728-4d9c-8314-d924d3025375/fd93d9fb-c8eb-4e95-b0cb-07fe1c295fbe.dcm",
+          "bytes": 4018778,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 2365,
+          "sha256": "0e48cc93d7ed80f085c76013a2e7c27d9daf7049baded1a373546aac1f8aabd2"
+        }
+      }
+    },
+    {
+      "key": "gtex-1nhnu-0525",
+      "specimen": "GTEX-1NHNU-0525",
+      "subject": "GTEX-1NHNU",
+      "tissue": "Thyroid",
+      "snomed": "SCT:69748006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2202719753.1857163470.1720189670921.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2832,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/edc91e74-b14e-46c0-ba3d-fc8ad6fc563d/a62001d1-d5c2-405e-82f5-9de3a68314c7.dcm",
+          "bytes": 40645924,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 7349,
+          "sha256": "bacc4992ed2b575a7cfc5b06753088d57e9788fa6ecb9ba1d8b8658f16839524"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/edc91e74-b14e-46c0-ba3d-fc8ad6fc563d/288e78af-f9d5-4651-bbde-c667d39a47fe.dcm",
+          "bytes": 3212972,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 1837,
+          "sha256": "d88d784cf0d29a901c7e7240d86ed936c541ad057f7bfd0bf447c134edf526a4"
+        }
+      }
+    },
+    {
+      "key": "gtex-t5jw-1225",
+      "specimen": "GTEX-T5JW-1225",
+      "subject": "GTEX-T5JW",
+      "tissue": "Thyroid",
+      "snomed": "SCT:69748006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2195569036.1191270862.1720182520204.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2785,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/586eff46-4026-4cce-a110-b689773d6395/939e2f86-9633-4063-8da1-2582ae265d0b.dcm",
+          "bytes": 26931454,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 6868,
+          "sha256": "083c3ca1e3e80ba049e3fc2d2a40f1fbd3bd3ce11f0fb31322e14c101daa8f42"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/586eff46-4026-4cce-a110-b689773d6395/b99ecbe2-d57e-4aef-ac2c-b4ec721c015d.dcm",
+          "bytes": 3174724,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 1717,
+          "sha256": "d7067627560c0d784fba8516f8bfa3ee3de053a54a5746c90e9636cc1215b831"
+        }
+      }
+    },
+    {
+      "key": "gtex-117yx-2625",
+      "specimen": "GTEX-117YX-2625",
+      "subject": "GTEX-117YX",
+      "tissue": "Tibial artery",
+      "snomed": "SCT:181351007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.1967828022.728671242.1719954779190.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1169,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/60cc8cb4-07eb-47f5-a8ec-34c36514c9e7/eb976d5f-10db-486c-a253-8301aed28ef3.dcm",
+          "bytes": 14787668,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 6855,
+          "sha256": "11f7deb0b98d6cc09718f7bd73f5cafd23964436ae08c9982571f0fc3a0f02b7"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/60cc8cb4-07eb-47f5-a8ec-34c36514c9e7/53366eba-6ca3-4044-a6a5-43e626c3e168.dcm",
+          "bytes": 1545550,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 1713,
+          "sha256": "9718bb671c27f12d43662808c7365bfccd7c506de98068ae50f0042d108f588d"
+        }
+      }
+    },
+    {
+      "key": "gtex-1pfey-2025",
+      "specimen": "GTEX-1PFEY-2025",
+      "subject": "GTEX-1PFEY",
+      "tissue": "Tibial artery",
+      "snomed": "SCT:181351007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.1969954278.2022889292.1719956905446.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.0941,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/7cb82d3f-7614-46cf-b3d0-5b6b20e7f467/a3b9d6cb-01bb-4550-868c-fc8edb1d76ca.dcm",
+          "bytes": 10998960,
+          "um_per_px": 1.977012681107,
+          "width": 6971,
+          "height": 8350,
+          "sha256": "5ab7e996c91eecbe059d37abcd145b292a362285d098397bc3c53a3130539b82"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/7cb82d3f-7614-46cf-b3d0-5b6b20e7f467/770f9833-c465-4b93-b137-6d5fbf5b95fb.dcm",
+          "bytes": 1254162,
+          "um_per_px": 7.911455453502,
+          "width": 1742,
+          "height": 2087,
+          "sha256": "c3179866b6d1f7d5a7295c20a1293ec3502f8f37efeb6cfd8ff2f9041834250f"
+        }
+      }
+    },
+    {
+      "key": "gtex-pwoo-2525",
+      "specimen": "GTEX-PWOO-2525",
+      "subject": "GTEX-PWOO",
+      "tissue": "Tibial nerve",
+      "snomed": "SCT:45684006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2184832112.1663728247.1720171783280.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1579,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/7e01a288-da98-4ec8-9586-ffdbdb08adb4/96db753e-a49a-4465-8fc3-7dfa157a1818.dcm",
+          "bytes": 9637522,
+          "um_per_px": 1.9769567064790001,
+          "width": 9461,
+          "height": 4115,
+          "sha256": "e5f7ad88e759b59acfdce359847e0476617e65c8ebf2e6c4737d9ad529636bac"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/7e01a288-da98-4ec8-9586-ffdbdb08adb4/012e099a-824c-4098-a2c7-743d37f72285.dcm",
+          "bytes": 1101624,
+          "um_per_px": 7.908662748414,
+          "width": 2365,
+          "height": 1028,
+          "sha256": "4fc28c57198f2e7b9d489520ae5698a46ff40c34dd0748740613975af8bb0b5a"
+        }
+      }
+    },
+    {
+      "key": "gtex-x15g-2525",
+      "specimen": "GTEX-X15G-2525",
+      "subject": "GTEX-X15G",
+      "tissue": "Tibial nerve",
+      "snomed": "SCT:45684006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2190956481.453012967.1720177907649.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.146,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/668cd52b-6db8-4340-a007-3eb50c487369/04ecd5ff-9aed-4b41-bd56-7e5bd1a428b0.dcm",
+          "bytes": 8706116,
+          "um_per_px": 1.9769860926320002,
+          "width": 7967,
+          "height": 4353,
+          "sha256": "0b9b16072651ad2eb0566923f1005d0330de6f826845cdfd4dde47468bfd75ff"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/668cd52b-6db8-4340-a007-3eb50c487369/780950ee-12ff-4a08-9644-8450b323195d.dcm",
+          "bytes": 1013400,
+          "um_per_px": 7.910923254646001,
+          "width": 1991,
+          "height": 1088,
+          "sha256": "e644a273ef90c71a939120a392688618e2b038b80e59221a8c6c4039b7ea8571"
+        }
+      }
+    },
+    {
+      "key": "gtex-1n5o9-0425",
+      "specimen": "GTEX-1N5O9-0425",
+      "subject": "GTEX-1N5O9",
+      "tissue": "Tibial nerve",
+      "snomed": "SCT:45684006",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2194181850.763250998.1720181133018.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1355,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/4f25dbd4-0d64-4c2b-9016-8445a2adfa8c/04d9e0d1-300e-477d-923c-07418f35dce8.dcm",
+          "bytes": 21518034,
+          "um_per_px": 1.9769353354629997,
+          "width": 10955,
+          "height": 8739,
+          "sha256": "d5f39d2ef9bc173e7178fa4ae47897428e2eab6f7ac75445b9f4eeebbf5f41f9"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/4f25dbd4-0d64-4c2b-9016-8445a2adfa8c/fd1bea10-ed5b-4eb7-b4b1-16af15474c3d.dcm",
+          "bytes": 2092288,
+          "um_per_px": 7.909907450694,
+          "width": 2738,
+          "height": 2184,
+          "sha256": "654f9910ba218bd68b4faf1ccc3f6be756ad59c9e81103ce495570989fef12c5"
+        }
+      }
+    },
+    {
+      "key": "gtex-r55c-1125",
+      "specimen": "GTEX-R55C-1125",
+      "subject": "GTEX-R55C",
+      "tissue": "Transverse colon",
+      "snomed": "SCT:485005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2366159948.327408869.1720353111116.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1914,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8861b7bd-5f32-4c68-adbc-75233d652477/f1006e8c-1f9a-4f89-8851-033059b0a581.dcm",
+          "bytes": 44180114,
+          "um_per_px": 1.976899243591,
+          "width": 14939,
+          "height": 10327,
+          "sha256": "b1828f31d4ca30b749670613bb782d789a04ce230bb4e45267b57d70aa1730a8"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8861b7bd-5f32-4c68-adbc-75233d652477/f44f6761-0cdc-4de2-a3d6-d63aad0a0648.dcm",
+          "bytes": 4775938,
+          "um_per_px": 7.909185270487,
+          "width": 3734,
+          "height": 2581,
+          "sha256": "471366181cd72ea4c9a6353e48d8b809019972321ac52872bbfbf3fe692c9406"
+        }
+      }
+    },
+    {
+      "key": "gtex-1ax8y-1825",
+      "specimen": "GTEX-1AX8Y-1825",
+      "subject": "GTEX-1AX8Y",
+      "tissue": "Transverse colon",
+      "snomed": "SCT:485005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2372754286.737604938.1720359705454.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1846,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8ebe3830-c257-4a01-a62a-05311759516c/6e2f64c4-3106-44c2-801d-3693941ecac7.dcm",
+          "bytes": 40433818,
+          "um_per_px": 1.97690266602,
+          "width": 14441,
+          "height": 10248,
+          "sha256": "7ef2c615312ee008fb887d0e962638ffb8f25bce21a5fcbbf7cd3c5fb3867d0b"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/8ebe3830-c257-4a01-a62a-05311759516c/44e9e1e6-a2e8-48fe-997a-a9ede92b6c95.dcm",
+          "bytes": 3701092,
+          "um_per_px": 7.908158282548001,
+          "width": 3610,
+          "height": 2562,
+          "sha256": "5c878c1c5f375bb148073b2ede718a87e60256140fa87f5a66c56244bbaac642"
+        }
+      }
+    },
+    {
+      "key": "gtex-183wm-2325",
+      "specimen": "GTEX-183WM-2325",
+      "subject": "GTEX-183WM",
+      "tissue": "Transverse colon",
+      "snomed": "SCT:485005",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2366640238.617653600.1720353591406.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.1556,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0f4b1f16-2510-43ee-aa54-e528b8671fc4/1ad7bb22-3575-4d11-ad57-1b4b94ab9aac.dcm",
+          "bytes": 26440994,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 9789,
+          "sha256": "7801156561afde62783536bc258da6dcace590fe21af79b1f1fb2007c641ed50"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/0f4b1f16-2510-43ee-aa54-e528b8671fc4/47efef1b-d876-41f3-b754-9a7fdbbb691d.dcm",
+          "bytes": 2346540,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 2447,
+          "sha256": "87aa656267389837c8cddacbea9aa0bd4f843d896d2307d6c0617b3312617f53"
+        }
+      }
+    },
+    {
+      "key": "gtex-tmmy-1525",
+      "specimen": "GTEX-TMMY-1525",
+      "subject": "GTEX-TMMY",
+      "tissue": "Urinary bladder",
+      "snomed": "SCT:89837001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2077627747.1108774112.1720064578915.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3559,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1943334b-3d42-4e6c-93c0-a79484e44458/ae0af7c4-568a-4726-bd3f-ddff431a7b81.dcm",
+          "bytes": 75423798,
+          "um_per_px": 1.976896041977,
+          "width": 15437,
+          "height": 9436,
+          "sha256": "d61f4c740d728a50869022219bab737c3f17e552af026fc7b6f884e5f3ced9ea"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/1943334b-3d42-4e6c-93c0-a79484e44458/edb22992-cc39-4a46-b050-37c5cd280720.dcm",
+          "bytes": 6973748,
+          "um_per_px": 7.908096449857,
+          "width": 3859,
+          "height": 2359,
+          "sha256": "2371e79ed0d9e5a737f9fca38285230ef0dfe797b4c8b3df5719ad6c9ab7f801"
+        }
+      }
+    },
+    {
+      "key": "gtex-qdvj-1525",
+      "specimen": "GTEX-QDVJ-1525",
+      "subject": "GTEX-QDVJ",
+      "tissue": "Urinary bladder",
+      "snomed": "SCT:89837001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2077469805.60292502.1720064420973.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2605,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9510d803-dbff-4d09-a4a2-93ba4d2656aa/5d7023b6-79f6-4171-be75-c0dc6f96c484.dcm",
+          "bytes": 55022924,
+          "um_per_px": 1.9769102714759998,
+          "width": 13445,
+          "height": 10418,
+          "sha256": "42d1cbe9da16ebae653898123afa977a632e2defd7ca77b5a9a3db588d1c6ca9"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/9510d803-dbff-4d09-a4a2-93ba4d2656aa/70923a7b-66be-46c4-90a1-d6a3ae670fdc.dcm",
+          "bytes": 5158800,
+          "um_per_px": 7.908229277000999,
+          "width": 3361,
+          "height": 2604,
+          "sha256": "66ffb0c145880ab9b58f447f8383324561f8ab0f300e2fa831303b9bba4b349a"
+        }
+      }
+    },
+    {
+      "key": "gtex-npj8-1125",
+      "specimen": "GTEX-NPJ8-1125",
+      "subject": "GTEX-NPJ8",
+      "tissue": "Urinary bladder",
+      "snomed": "SCT:89837001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2078665297.157061724.1720065616465.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2322,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/5068240e-8009-4fe0-9f17-c67e6b598c6e/53de62c4-0f9d-4426-97ca-ceeec4d650cd.dcm",
+          "bytes": 50547200,
+          "um_per_px": 1.9769102714759998,
+          "width": 13445,
+          "height": 10790,
+          "sha256": "66c6327fd2981a7a96576182f121f61eefe6084d7b9f5d9774222c2fbcac8966"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/5068240e-8009-4fe0-9f17-c67e6b598c6e/55d16841-a7a3-4544-9e3a-5ee1b35ac126.dcm",
+          "bytes": 5206016,
+          "um_per_px": 7.908229277000999,
+          "width": 3361,
+          "height": 2697,
+          "sha256": "f45bac3a1daab165669cd1755dc7f6f76f790a0de072303099288ebdefba16c2"
+        }
+      }
+    },
+    {
+      "key": "gtex-17jci-2425",
+      "specimen": "GTEX-17JCI-2425",
+      "subject": "GTEX-17JCI",
+      "tissue": "Uterus",
+      "snomed": "SCT:35039007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2244468203.49403273.1720231419371.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.3542,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c267952e-9e25-458e-b228-9753dd90e3d8/a74b0596-daa3-42ae-95f2-69ff82cbe406.dcm",
+          "bytes": 40827608,
+          "um_per_px": 1.9769190939030001,
+          "width": 12449,
+          "height": 6206,
+          "sha256": "7967d1f6ac1eb0c4216f907dcce4c44a318e1b6b7e8fa87191cffa35cbd1c239"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c267952e-9e25-458e-b228-9753dd90e3d8/1af5587a-e85b-4970-99c8-a4cd409f4ab2.dcm",
+          "bytes": 3293284,
+          "um_per_px": 7.908311632391,
+          "width": 3112,
+          "height": 1551,
+          "sha256": "1462fc724546c2d441f042d4e8087a65b5c92dc4e958f03d6f5e1a624319e77a"
+        }
+      }
+    },
+    {
+      "key": "gtex-1b97j-0225",
+      "specimen": "GTEX-1B97J-0225",
+      "subject": "GTEX-1B97J",
+      "tissue": "Uterus",
+      "snomed": "SCT:35039007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2247926984.540215175.1720234878152.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2907,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/f767eb6f-99a3-4fe8-a664-2c5e40f7c1d5/c228a719-c9cc-45e6-8737-6bcec9acb161.dcm",
+          "bytes": 26736540,
+          "um_per_px": 1.9769294507989998,
+          "width": 11453,
+          "height": 5901,
+          "sha256": "cc9ef0d556e9cfad443623ada51b191a76545eba47eb075c0a8e09f13ed4f91e"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/f767eb6f-99a3-4fe8-a664-2c5e40f7c1d5/8439ecd6-5ffd-461a-ad7e-64bc7f88d120.dcm",
+          "bytes": 2303296,
+          "um_per_px": 7.9084083129580005,
+          "width": 2863,
+          "height": 1475,
+          "sha256": "418982712103de5bae03c4dc8f3f9d95c4e9ed3f78f096b8ee703180b589eee1"
+        }
+      }
+    },
+    {
+      "key": "gtex-1i1cd-2225",
+      "specimen": "GTEX-1I1CD-2225",
+      "subject": "GTEX-1I1CD",
+      "tissue": "Uterus",
+      "snomed": "SCT:35039007",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.2247821441.769793878.1720234772609.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.272,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/2988e2f2-73b7-4ed4-b93a-6e2260936cb8/2beaaa66-f431-4814-a1d0-7528f60c8514.dcm",
+          "bytes": 43464258,
+          "um_per_px": 1.9769063329269998,
+          "width": 13943,
+          "height": 7623,
+          "sha256": "d0254f53aeedf4996909ff279b2b07eb41cc3d3d4ab20eeea9d561e06f6275ef"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/2988e2f2-73b7-4ed4-b93a-6e2260936cb8/1c1da527-ac58-4df3-8cb5-4528a05b64b3.dcm",
+          "bytes": 3497978,
+          "um_per_px": 7.909327116212001,
+          "width": 3485,
+          "height": 1905,
+          "sha256": "25f6b29c64d56ddd53987febabb8fc2cc5eb36dc1dd11e7ad54a930cd471b7d7"
+        }
+      }
+    },
+    {
+      "key": "gtex-14phy-1825",
+      "specimen": "GTEX-14PHY-1825",
+      "subject": "GTEX-14PHY",
+      "tissue": "Vagina",
+      "snomed": "SCT:76784001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.1961625698.1992895797.1719948576866.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2642,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/2c3bd23c-b8e6-42af-9acb-bfd6d98ba61c/0b82b119-61e4-411b-9915-3704edcfc468.dcm",
+          "bytes": 66471272,
+          "um_per_px": 1.9768804667570001,
+          "width": 18425,
+          "height": 9767,
+          "sha256": "cb24393696a69380933451db7726f9c5800af40ec07a752a47c1ec065705864a"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/2c3bd23c-b8e6-42af-9acb-bfd6d98ba61c/799f7030-f9b7-4128-b62c-49fa4ecad1ed.dcm",
+          "bytes": 5764022,
+          "um_per_px": 7.907951063830001,
+          "width": 4606,
+          "height": 2441,
+          "sha256": "9cfa4bd94fc5b3fa03b901c6736110b7d639375e127d64c4c1d940c8069c66d8"
+        }
+      }
+    },
+    {
+      "key": "gtex-11ztt-2025",
+      "specimen": "GTEX-11ZTT-2025",
+      "subject": "GTEX-11ZTT",
+      "tissue": "Vagina",
+      "snomed": "SCT:76784001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.1956936000.1181412248.1719943887168.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2417,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c4f40437-fa9c-4dc3-9ca1-48e8da017431/772e77cd-1a79-4163-8e61-e142cced1cfb.dcm",
+          "bytes": 48097558,
+          "um_per_px": 1.9769102714759998,
+          "width": 13445,
+          "height": 9902,
+          "sha256": "909a53163fee8c20767434517f740da814092434026772f35ad120da8656563b"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/c4f40437-fa9c-4dc3-9ca1-48e8da017431/5a0acf2e-2687-4c8a-901a-ba854702b572.dcm",
+          "bytes": 4086742,
+          "um_per_px": 7.908229277000999,
+          "width": 3361,
+          "height": 2475,
+          "sha256": "5191c4a420b2a23a25a3587891dbb418d39962d6c95361d38dfaddf8b439057f"
+        }
+      }
+    },
+    {
+      "key": "gtex-11emc-1925",
+      "specimen": "GTEX-11EMC-1925",
+      "subject": "GTEX-11EMC",
+      "tissue": "Vagina",
+      "snomed": "SCT:76784001",
+      "series_uid": "1.3.6.1.4.1.5962.99.1.1959981115.2126554788.1719946932283.4.0",
+      "licence": "CC BY 4.0",
+      "doi": "10.5281/zenodo.11099099",
+      "objective": 20.0,
+      "tissue_share": 0.2417,
+      "levels": {
+        "fine": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a4f4c105-3aea-41eb-b403-da47d039a3e7/2872cc6d-2898-40c7-b688-8aa4451b7acf.dcm",
+          "bytes": 44577204,
+          "um_per_px": 1.976914513015,
+          "width": 12947,
+          "height": 10154,
+          "sha256": "20a1d4566d1276155ef5415c2e7fc9b9d8eed3def908388286db790a45052d42"
+        },
+        "overview": {
+          "url": "https://idc-open-data.s3.amazonaws.com/a4f4c105-3aea-41eb-b403-da47d039a3e7/37d9d91b-e9a4-4344-bf6a-bc398484cd68.dcm",
+          "bytes": 3743182,
+          "um_per_px": 7.9094907911,
+          "width": 3236,
+          "height": 2538,
+          "sha256": "84d2512ef2a9b21dc82c5dfe50fb4f5bae7cc3c21db33849f3410c9dcdbb5b75"
+        }
+      }
+    }
+  ],
+  "video": {
+    "url": "https://raw.githubusercontent.com/bad-apple-lab/Bad-Apple/80e39ed58d754e4de420b7a1c474e53e20a71ba3/badapple.mp4",
+    "sha256": "d8339642fd3303a0c4971e1564515e82f69ef61b700ce17b681debb19404c23a"
+  },
+  "fonts": [
+    {
+      "path": "fonts/MaterialSymbolsOutlined.ttf",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/variablefont/MaterialSymbolsOutlined%5BFILL,GRAD,opsz,wght%5D.ttf",
+      "licence": "Apache-2.0",
+      "sha256": "f7837ba8573d9a7a74931618ced8307bc81f96d49af296bf6c8052c772ed5282"
+    },
+    {
+      "path": "fonts/MaterialSymbolsOutlined.codepoints",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/variablefont/MaterialSymbolsOutlined%5BFILL,GRAD,opsz,wght%5D.codepoints",
+      "licence": "Apache-2.0",
+      "sha256": "a7404d9e5a1b63f496cf05ace45d386075886b5a7f123fba9f29527cb6006fde"
+    }
+  ]
+}

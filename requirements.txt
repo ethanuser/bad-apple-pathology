@@ -1,0 +1,8 @@
+idc-index==0.13.5
+moderngl==5.13.0
+numpy==2.2.6
+opencv-python-headless==4.12.0.88
+pillow==11.3.0
+pydicom==3.0.2
+torch==2.15.0
+trimesh==5.2.2
